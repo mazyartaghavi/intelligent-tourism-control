@@ -392,11 +392,32 @@ The project aims to investigate how intelligent control methods can support sust
 9. embodied intelligent tourism assistance,
 10. closed-loop integration of all system components.
 
-## Current Status
+## Project Status
 
-Early-stage research and development.
+The project is currently in the **research design and technical specification** phase. The modular repository layout and initial research scope are established; executable baselines and empirical results are not yet included.
 
-The repository structure has been initialized and the individual scientific modules will be implemented progressively.
+| Workstream | Status | Current focus |
+|---|---|---|
+| Research architecture | Established | Maintaining clear interfaces between sensing, forecasting, optimization, recommendation, and language components |
+| LLM and RAG | Design | Defining grounded interaction, retrieval, and evaluation interfaces |
+| Mathematical optimization | Next milestone | Specifying a reproducible capacity-allocation baseline with explicit constraints and evaluation metrics |
+| Reinforcement learning | Planned | Comparing learned policies with optimization and heuristic baselines |
+| Integrated evaluation | Planned | Designing scenario-based experiments and cross-module metrics |
+
+Status labels describe repository maturity rather than validated scientific performance. See the [optimization milestone](docs/research/optimization-milestone.md) for the next implementation target and [CHANGELOG.md](CHANGELOG.md) for notable repository updates.
+
+## Roadmap
+
+- [x] Define the research vision and modular repository structure.
+- [x] Document the principal scientific workstreams and intended integration path.
+- [x] Specify the first optimization milestone, its assumptions, and validation criteria.
+- [ ] Implement a deterministic optimization baseline and a transparent heuristic comparator.
+- [ ] Add synthetic scenario generation, configuration files, and unit tests.
+- [ ] Report feasibility, objective value, runtime, and sensitivity results.
+- [ ] Connect forecasting outputs to optimization inputs through a documented interface.
+- [ ] Evaluate adaptive policies against fixed and optimization-based baselines.
+
+Roadmap items may be refined as assumptions, data availability, and experimental evidence evolve.
 
 ## Reproducibility
 
