@@ -10,6 +10,14 @@ Notable repository-level changes are documented in this file. The project follow
 - Add synthetic scenarios and reproducible evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-10-09
+
+### Added
+
+- A runnable proportional-allocation heuristic with JSON output and input validation, using only the Python standard library.
+- Tests for scarce and surplus budgets, zero cases, invalid inputs, and feasibility across 100 seeded synthetic cases.
+- A README quick start and documented assumptions for the heuristic comparator.
+
 ## 2026-10-07
 
 ### Added

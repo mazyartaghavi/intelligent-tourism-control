@@ -6,6 +6,14 @@ The next technical milestone is a small, reproducible optimization baseline for 
 
 This document is a technical specification. It does not report completed experiments or performance results.
 
+## Available Heuristic Comparator
+
+The [proportional-allocation module](../../src/tourism_control/optimization/proportional.py) provides a first executable comparator. For each location, eligible demand is the minimum of requested demand and local capacity. If the shared budget is scarce, every eligible demand is multiplied by the same factor: budget divided by total eligible demand. Otherwise, each location receives its eligible demand and any excess budget remains unused.
+
+Inputs are non-negative, finite quantities in a common divisible capacity unit for a single time period. Demand and capacity lists must have equal, nonzero lengths. Allocations respect local limits and the shared budget within floating-point tolerance; unmet demand includes any demand above local capacity.
+
+The module exposes `allocate_capacity(demand, capacity, budget)` and a command-line interface returning JSON. The [README example](../../README.md#try-the-capacity-allocation-baseline) uses synthetic inputs. Unit tests check feasibility, boundary cases, and deterministic behavior. This heuristic has no costs, integer decisions, transfers, or time coupling; the full optimization milestone below remains open.
+
 ## Problem Definition
 
 For a set of locations and discrete time periods, the model will assign available capacity while balancing three objectives:
