@@ -18,6 +18,16 @@ Run the baseline checks with:
 python -m unittest discover -s tests/unit -v
 ```
 
+## Scientific Foundations
+
+The research specifications now define the equations, assumptions, and evaluation criteria for the planned decision-making modules:
+
+- [Mathematical framework](docs/methodology/mathematical-framework.md): demand forecasting, uncertainty, constrained objectives, pricing policies, congestion-aware recommendation, and grounded language interfaces.
+- [Optimization milestone](docs/research/optimization-milestone.md#deterministic-allocation-formulation): an explicit linear allocation model and its relationship to the implemented proportional heuristic.
+- [Evaluation protocol](docs/experiments/evaluation-protocol.md): reference methods, metric definitions, temporal validation, ablations, and reproducibility requirements.
+
+These documents describe planned methods. The proportional-allocation heuristic remains the current executable baseline.
+
 ## Research Vision
 
 This project treats tourism management as a large-scale intelligent control problem.
@@ -418,7 +428,7 @@ The project is currently in **early implementation and technical specification**
 | LLM and RAG | Design | Defining grounded interaction, retrieval, and evaluation interfaces |
 | Mathematical optimization | Baseline preparation | Proportional-allocation heuristic implemented; constrained optimizer and comparative evaluation planned |
 | Reinforcement learning | Planned | Comparing learned policies with optimization and heuristic baselines |
-| Integrated evaluation | Planned | Designing scenario-based experiments and cross-module metrics |
+| Integrated evaluation | Protocol specified | Metric definitions, baseline comparisons, ablations, and reproducibility requirements documented; experiments planned |
 
 Status labels describe repository maturity rather than validated scientific performance. See the [optimization milestone](docs/research/optimization-milestone.md) for the next implementation target and [CHANGELOG.md](CHANGELOG.md) for notable repository updates.
 
@@ -428,6 +438,7 @@ Status labels describe repository maturity rather than validated scientific perf
 - [x] Document the principal scientific workstreams and intended integration path.
 - [x] Specify the first optimization milestone, its assumptions, and validation criteria.
 - [x] Implement a transparent proportional-allocation heuristic with feasibility tests.
+- [x] Document the mathematical framework, explicit allocation model, and evaluation protocol.
 - [ ] Implement a deterministic optimization baseline for comparison.
 - [ ] Add synthetic scenario generation, configuration files, and unit tests.
 - [ ] Report feasibility, objective value, runtime, and sensitivity results.

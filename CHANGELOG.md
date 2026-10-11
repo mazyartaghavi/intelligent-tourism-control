@@ -10,6 +10,21 @@ Notable repository-level changes are documented in this file. The project follow
 - Add synthetic scenarios and reproducible evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-10-11
+
+### Added
+
+- A mathematical framework for forecasting, constrained objectives, sequential pricing, congestion-aware recommendation, and grounded language interfaces.
+- An explicit linear capacity-allocation model with unmet-demand and adjustment variables, linked to the current proportional heuristic.
+- An evaluation protocol covering metric definitions, reference methods, temporal validation, ablations, and reproducible reporting.
+- A README scientific-foundations section linking the new specifications.
+
+### Clarified
+
+- The assumptions under which proportional allocation already minimizes total unmet demand.
+- The distinction between interval service capacity and concurrent occupancy, plus zero-demand metric handling and objective scaling.
+- The implementation status of the specified methods; no new solver or experimental results are included.
+
 ## 2026-10-09
 
 ### Added
