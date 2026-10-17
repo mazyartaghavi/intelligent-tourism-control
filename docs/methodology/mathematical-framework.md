@@ -144,7 +144,7 @@ The proposed interface explains feasible decisions and cites supporting evidence
 
 | Component | Available artifact | Remaining work |
 |---|---|---|
-| Proportional allocation | Executable heuristic and unit tests | Comparative experiment runner |
+| Proportional allocation | Executable heuristic, unit tests, and fixed-scenario runner | Comparative experiments against other allocation methods |
 | Constrained allocation | Explicit mathematical specification | Solver implementation and validation |
 | Forecasting and pricing | Equations and assumptions | Data interfaces, models, simulator, policy evaluation |
 | Recommendation and language interface | Utility and information-flow specification | Ranking, retrieval, generation, and evaluation implementations |

@@ -7,8 +7,17 @@ Notable repository-level changes are documented in this file. The project follow
 ### Planned
 
 - Implement the first constrained optimization baseline.
-- Add synthetic scenarios and reproducible evaluation scripts.
+- Add stochastic scenario generation and comparative evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
+
+## 2026-10-17
+
+### Added
+
+- Five versioned synthetic allocation scenarios covering scarce and surplus budgets, zero demand, zero budget, and a closed location.
+- A standard-library scenario runner with Markdown and JSON reports for allocation totals, unmet demand, unused budget, and feasibility.
+- Tests for known fixture outcomes, repeatability, invalid inputs, and both command-line output formats.
+- A visible README results table and documented configuration schema and feasibility tolerance.
 
 ## 2026-10-11
 

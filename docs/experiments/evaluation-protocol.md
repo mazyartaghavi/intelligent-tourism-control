@@ -1,6 +1,16 @@
 # Evaluation Protocol
 
-Status: proposed protocol. This document specifies future experiments; it contains no benchmark results. The existing allocation unit tests check software behavior and feasibility, not superiority over another method.
+Status: proposed comparison protocol with an implemented single-method scenario runner. The allocation tests and fixed scenario checks assess software behavior and feasibility; they do not establish superiority over another method.
+
+## Available Scenario Runner
+
+Run `python scripts/evaluation/run_allocation_scenarios.py` from the repository root to produce a Markdown table, or add `--format json` for per-location allocations, unmet demand, total service, unused budget, and the maximum constraint violation. The runner uses only the Python standard library and resolves its default fixture independently of the working directory.
+
+The [versioned fixture](../../configs/optimization/allocation-scenarios.json) has `schema_version: 1` and a nonempty `scenarios` list. Each entry contains a unique lowercase `id` (letters, digits, underscores, or hyphens), equal-length nonempty numeric `demand` and `capacity` lists, and a numeric `budget`. Values must be finite and non-negative; booleans and numeric strings are rejected. All quantities use the same divisible service-capacity unit for one period. Array positions identify corresponding generic locations. A zero capacity denotes a closed location, whose demand remains unmet.
+
+Use `--scenarios path/to/scenarios.json` to evaluate another configuration. Entries run in file order; these fixed inputs require no random seed. The output reports the method, schema version, and absolute feasibility tolerance of `1e-9` service-capacity units. It checks non-negative allocation, local capacity, requested demand, and the shared budget. A report containing an infeasible allocation exits with status 1; invalid input exits with status 2. Values displayed in the table are rounded to two decimal places; feasibility uses unrounded values.
+
+The five supplied scenarios are regression fixtures, not a representative demand sample or an evaluation of a constrained optimizer. Comparative experiments, stochastic scenario generation, and the full reproducibility record below remain future work.
 
 ## 1. Experimental Contract
 

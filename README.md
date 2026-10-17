@@ -18,6 +18,24 @@ Run the baseline checks with:
 python -m unittest discover -s tests/unit -v
 ```
 
+## Reproduce the Scenario Checks
+
+The baseline now includes five fixed synthetic scenarios covering scarce resources, surplus resources, zero demand, zero budget, and a closed location. Run the suite with Python 3.10 or later and no additional packages:
+
+```sh
+python scripts/evaluation/run_allocation_scenarios.py
+```
+
+| Scenario | Served | Unmet demand | Unused budget | Feasible |
+|---|---:|---:|---:|:---:|
+| scarce_budget | 90.00 | 60.00 | 0.00 | yes |
+| surplus_budget | 50.00 | 50.00 | 50.00 | yes |
+| zero_demand | 0.00 | 0.00 | 10.00 | yes |
+| zero_budget | 0.00 | 30.00 | 0.00 | yes |
+| closed_location | 20.00 | 30.00 | 20.00 | yes |
+
+These are reproducible fixture results in divisible service-capacity units, not comparative performance evidence. For per-location allocations, unmet demand, and constraint residuals, append `--format json`. The [scenario configuration](configs/optimization/allocation-scenarios.json) and [evaluation protocol](docs/experiments/evaluation-protocol.md#available-scenario-runner) explain the inputs and feasibility tolerance.
+
 ## Scientific Foundations
 
 The research specifications now define the equations, assumptions, and evaluation criteria for the planned decision-making modules:
@@ -439,6 +457,7 @@ Status labels describe repository maturity rather than validated scientific perf
 - [x] Specify the first optimization milestone, its assumptions, and validation criteria.
 - [x] Implement a transparent proportional-allocation heuristic with feasibility tests.
 - [x] Document the mathematical framework, explicit allocation model, and evaluation protocol.
+- [x] Add versioned synthetic scenario fixtures and a runnable allocation evaluation report.
 - [ ] Implement a deterministic optimization baseline for comparison.
 - [ ] Add synthetic scenario generation, configuration files, and unit tests.
 - [ ] Report feasibility, objective value, runtime, and sensitivity results.

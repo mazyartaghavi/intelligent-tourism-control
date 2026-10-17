@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "scenarios": [
+    {
+      "id": "scarce_budget",
+      "demand": [80, 40, 30],
+      "capacity": [60, 50, 30],
+      "budget": 90
+    },
+    {
+      "id": "surplus_budget",
+      "demand": [20, 80],
+      "capacity": [50, 30],
+      "budget": 100
+    },
+    {
+      "id": "zero_demand",
+      "demand": [0, 0],
+      "capacity": [20, 20],
+      "budget": 10
+    },
+    {
+      "id": "zero_budget",
+      "demand": [10, 20],
+      "capacity": [20, 20],
+      "budget": 0
+    },
+    {
+      "id": "closed_location",
+      "demand": [30, 20],
+      "capacity": [0, 30],
+      "budget": 40
+    }
+  ]
+}
