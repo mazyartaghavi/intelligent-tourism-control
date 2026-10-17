@@ -15,6 +15,7 @@ Notable repository-level changes are documented in this file. The project follow
 ### Added
 
 - A dedicated related-work index, review guidelines, and a paper note on congestion-aware route recommendation (Yi et al., 2024).
+- A paper note on Temporal Fusion Transformers (Lim et al., 2021), including input availability and uncertainty considerations.
 - Five versioned synthetic allocation scenarios covering scarce and surplus budgets, zero demand, zero budget, and a closed location.
 - A standard-library scenario runner with Markdown and JSON reports for allocation totals, unmet demand, unused budget, and feasibility.
 - Tests for known fixture outcomes, repeatability, invalid inputs, and both command-line output formats.
