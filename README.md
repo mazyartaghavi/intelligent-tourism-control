@@ -46,6 +46,10 @@ The research specifications now define the equations, assumptions, and evaluatio
 
 These documents describe planned methods. The proportional-allocation heuristic remains the current executable baseline.
 
+## Related Work and Literature Review
+
+The [literature review](docs/related-work/README.md) collects concise, source-checked paper notes connecting published research to the repository's scientific modules. Each entry separates the paper's findings, applicability, limitations, and a proposed experiment. Papers are added individually, with their evidence and publication status recorded.
+
 ## Research Vision
 
 This project treats tourism management as a large-scale intelligent control problem.
