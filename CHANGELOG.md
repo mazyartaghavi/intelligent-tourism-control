@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Add stochastic scenario generation and comparative evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-10-18
+
+### Added
+
+- A paper note on multi-modal crowd counting (Meng et al., 2025), connecting UAV-assisted sensing to observation-error evaluation while distinguishing benchmark findings from proposed control experiments.
+
 ## 2026-10-17
 
 ### Added

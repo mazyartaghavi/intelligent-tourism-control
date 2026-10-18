@@ -12,6 +12,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 | [Lim et al.: Temporal Fusion Transformers](papers/2021-lim-temporal-fusion-transformers.md) | 2021 | Multi-horizon forecasting; uncertainty | Full-text author manuscript | 2026-10-17 |
 | [Achiam et al.: Constrained Policy Optimization](papers/2017-achiam-constrained-policy-optimization.md) | 2017 | Constrained reinforcement learning | Full-text formulation and implementation | 2026-10-17 |
 | [Lewis et al.: Retrieval-Augmented Generation](papers/2020-lewis-retrieval-augmented-generation.md) | 2020 | Grounded language services | Full-text experiments and results | 2026-10-17 |
+| [Meng et al.: Multi-modal crowd counting](papers/2025-meng-multimodal-crowd-counting.md) | 2025 | UAV/crowd sensing; visual-thermal measurement | Full-text methods, results, and ablations | 2026-10-18 |
 
 ## Emerging Connections
 
@@ -19,8 +20,9 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 - [TFT](papers/2021-lim-temporal-fusion-transformers.md) offers a candidate forecasting architecture; its value here depends on held-out demand and downstream decision evaluation.
 - [CPO](papers/2017-achiam-constrained-policy-optimization.md) separates policy rewards from cost constraints, while operational capacity enforcement remains a distinct requirement.
 - [RAG](papers/2020-lewis-retrieval-augmented-generation.md) informs the evidence-supported interaction layer; retrieval quality and consistency with numerical decisions need separate evaluation.
+- [Multi-modal crowd counting](papers/2025-meng-multimodal-crowd-counting.md) motivates testing observation errors before using sensed counts in forecasts or occupancy decisions; image counts do not directly measure future arrivals.
 
-Together, these papers suggest evaluating prediction, feasible decision making, visitor acceptance, and factual explanation as distinct parts of an integrated system. This is a proposed research direction, not a demonstrated end-to-end result.
+Together, these papers suggest evaluating measurement, prediction, feasible decision making, visitor acceptance, and factual explanation as distinct parts of an integrated system. This is a proposed research direction, not a demonstrated end-to-end result.
 
 These connections inform the [mathematical framework](../methodology/mathematical-framework.md) and [evaluation protocol](../experiments/evaluation-protocol.md). Literature coverage does not imply that a referenced method has been implemented.
 
