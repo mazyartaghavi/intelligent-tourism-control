@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Add stochastic scenario generation and comparative evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-10-19
+
+### Added
+
+- A paper note on hotel price-response estimation (Garcia et al., 2022), linking causal demand assumptions and recommendation logs to future dynamic-pricing evaluation.
+
 ## 2026-10-18
 
 ### Added

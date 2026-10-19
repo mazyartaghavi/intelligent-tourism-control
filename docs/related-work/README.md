@@ -13,6 +13,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 | [Achiam et al.: Constrained Policy Optimization](papers/2017-achiam-constrained-policy-optimization.md) | 2017 | Constrained reinforcement learning | Full-text formulation and implementation | 2026-10-17 |
 | [Lewis et al.: Retrieval-Augmented Generation](papers/2020-lewis-retrieval-augmented-generation.md) | 2020 | Grounded language services | Full-text experiments and results | 2026-10-17 |
 | [Meng et al.: Multi-modal crowd counting](papers/2025-meng-multimodal-crowd-counting.md) | 2025 | UAV/crowd sensing; visual-thermal measurement | Full-text methods, results, and ablations | 2026-10-18 |
+| [Garcia et al.: Hotel price-response estimation](papers/2022-garcia-hotel-price-response.md) | 2022 | Tourism-specific dynamic pricing; causal demand estimation | Full-text identification and empirical results | 2026-10-19 |
 
 ## Emerging Connections
 
@@ -21,6 +22,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 - [CPO](papers/2017-achiam-constrained-policy-optimization.md) separates policy rewards from cost constraints, while operational capacity enforcement remains a distinct requirement.
 - [RAG](papers/2020-lewis-retrieval-augmented-generation.md) informs the evidence-supported interaction layer; retrieval quality and consistency with numerical decisions need separate evaluation.
 - [Multi-modal crowd counting](papers/2025-meng-multimodal-crowd-counting.md) motivates testing observation errors before using sensed counts in forecasts or occupancy decisions; image counts do not directly measure future arrivals.
+- [Hotel price-response estimation](papers/2022-garcia-hotel-price-response.md) highlights the distinction between forecasting bookings and identifying the effect of changing prices; pricing simulators need defensible response assumptions.
 
 Together, these papers suggest evaluating measurement, prediction, feasible decision making, visitor acceptance, and factual explanation as distinct parts of an integrated system. This is a proposed research direction, not a demonstrated end-to-end result.
 
