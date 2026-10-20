@@ -14,6 +14,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 | [Lewis et al.: Retrieval-Augmented Generation](papers/2020-lewis-retrieval-augmented-generation.md) | 2020 | Grounded language services | Full-text experiments and results | 2026-10-17 |
 | [Meng et al.: Multi-modal crowd counting](papers/2025-meng-multimodal-crowd-counting.md) | 2025 | UAV/crowd sensing; visual-thermal measurement | Full-text methods, results, and ablations | 2026-10-18 |
 | [Garcia et al.: Hotel price-response estimation](papers/2022-garcia-hotel-price-response.md) | 2022 | Tourism-specific dynamic pricing; causal demand estimation | Full-text identification and empirical results | 2026-10-19 |
+| [Elmachtoub and Grigas: Smart "Predict, then Optimize"](papers/2022-elmachtoub-smart-predict-optimize.md) | 2022 | Prediction-optimization integration; decision-focused evaluation | Full-text author manuscript | 2026-10-20 |
 
 ## Emerging Connections
 
@@ -23,6 +24,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 - [RAG](papers/2020-lewis-retrieval-augmented-generation.md) informs the evidence-supported interaction layer; retrieval quality and consistency with numerical decisions need separate evaluation.
 - [Multi-modal crowd counting](papers/2025-meng-multimodal-crowd-counting.md) motivates testing observation errors before using sensed counts in forecasts or occupancy decisions; image counts do not directly measure future arrivals.
 - [Hotel price-response estimation](papers/2022-garcia-hotel-price-response.md) highlights the distinction between forecasting bookings and identifying the effect of changing prices; pricing simulators need defensible response assumptions.
+- [Smart "Predict, then Optimize"](papers/2022-elmachtoub-smart-predict-optimize.md) motivates evaluating forecasts through downstream decision losses, while distinguishing uncertain objective coefficients from uncertain constraints.
 
 Together, these papers suggest evaluating measurement, prediction, feasible decision making, visitor acceptance, and factual explanation as distinct parts of an integrated system. This is a proposed research direction, not a demonstrated end-to-end result.
 

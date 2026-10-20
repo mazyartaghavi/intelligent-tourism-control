@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Add stochastic scenario generation and comparative evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-10-20
+
+### Added
+
+- A paper note on Smart "Predict, then Optimize" (Elmachtoub and Grigas, 2022), connecting forecast assessment to decision losses and proposing a fixed-constraint allocation experiment.
+
 ## 2026-10-19
 
 ### Added
