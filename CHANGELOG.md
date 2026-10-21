@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Add stochastic scenario generation and comparative evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-10-21
+
+### Added
+
+- A paper note on hierarchical Poisson-mixture forecasting (Olivares et al., 2024), connecting tourism-demand evidence to coherent joint scenarios and separate calibration checks.
+
 ## 2026-10-20
 
 ### Added

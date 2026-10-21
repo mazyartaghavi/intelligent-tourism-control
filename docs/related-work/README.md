@@ -15,6 +15,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 | [Meng et al.: Multi-modal crowd counting](papers/2025-meng-multimodal-crowd-counting.md) | 2025 | UAV/crowd sensing; visual-thermal measurement | Full-text methods, results, and ablations | 2026-10-18 |
 | [Garcia et al.: Hotel price-response estimation](papers/2022-garcia-hotel-price-response.md) | 2022 | Tourism-specific dynamic pricing; causal demand estimation | Full-text identification and empirical results | 2026-10-19 |
 | [Elmachtoub and Grigas: Smart "Predict, then Optimize"](papers/2022-elmachtoub-smart-predict-optimize.md) | 2022 | Prediction-optimization integration; decision-focused evaluation | Full-text author manuscript | 2026-10-20 |
+| [Olivares et al.: Hierarchical Poisson-mixture forecasts](papers/2024-olivares-hierarchical-poisson-mixtures.md) | 2024 | Tourism demand forecasting; probabilistic aggregation | Full-text author manuscript, methods and results | 2026-10-21 |
 
 ## Emerging Connections
 
@@ -25,6 +26,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 - [Multi-modal crowd counting](papers/2025-meng-multimodal-crowd-counting.md) motivates testing observation errors before using sensed counts in forecasts or occupancy decisions; image counts do not directly measure future arrivals.
 - [Hotel price-response estimation](papers/2022-garcia-hotel-price-response.md) highlights the distinction between forecasting bookings and identifying the effect of changing prices; pricing simulators need defensible response assumptions.
 - [Smart "Predict, then Optimize"](papers/2022-elmachtoub-smart-predict-optimize.md) motivates evaluating forecasts through downstream decision losses, while distinguishing uncertain objective coefficients from uncertain constraints.
+- [Hierarchical Poisson-mixture forecasts](papers/2024-olivares-hierarchical-poisson-mixtures.md) suggest joint demand scenarios with consistent location and regional totals; aggregation coherence, uncertainty calibration, and capacity compliance require distinct checks.
 
 Together, these papers suggest evaluating measurement, prediction, feasible decision making, visitor acceptance, and factual explanation as distinct parts of an integrated system. This is a proposed research direction, not a demonstrated end-to-end result.
 
