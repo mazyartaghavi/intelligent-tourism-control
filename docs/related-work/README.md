@@ -16,6 +16,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 | [Garcia et al.: Hotel price-response estimation](papers/2022-garcia-hotel-price-response.md) | 2022 | Tourism-specific dynamic pricing; causal demand estimation | Full-text identification and empirical results | 2026-10-19 |
 | [Elmachtoub and Grigas: Smart "Predict, then Optimize"](papers/2022-elmachtoub-smart-predict-optimize.md) | 2022 | Prediction-optimization integration; decision-focused evaluation | Full-text author manuscript | 2026-10-20 |
 | [Olivares et al.: Hierarchical Poisson-mixture forecasts](papers/2024-olivares-hierarchical-poisson-mixtures.md) | 2024 | Tourism demand forecasting; probabilistic aggregation | Full-text author manuscript, methods and results | 2026-10-21 |
+| [Hausenblas et al.: Offline network pricing](papers/2025-hausenblas-offline-network-pricing.md) | 2025 | Dynamic pricing; offline reinforcement learning; shared inventory | Full-text formulation, methods, and simulation results | 2026-10-23 |
 
 ## Emerging Connections
 
@@ -27,6 +28,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 - [Hotel price-response estimation](papers/2022-garcia-hotel-price-response.md) highlights the distinction between forecasting bookings and identifying the effect of changing prices; pricing simulators need defensible response assumptions.
 - [Smart "Predict, then Optimize"](papers/2022-elmachtoub-smart-predict-optimize.md) motivates evaluating forecasts through downstream decision losses, while distinguishing uncertain objective coefficients from uncertain constraints.
 - [Hierarchical Poisson-mixture forecasts](papers/2024-olivares-hierarchical-poisson-mixtures.md) suggest joint demand scenarios with consistent location and regional totals; aggregation coherence, uncertainty calibration, and capacity compliance require distinct checks.
+- [Offline network pricing](papers/2025-hausenblas-offline-network-pricing.md) connects logged decisions to candidate pricing policies, but useful action coverage and credible evaluation remain prerequisites; avoiding live training does not establish deployment safety.
 
 Together, these papers suggest evaluating measurement, prediction, feasible decision making, visitor acceptance, and factual explanation as distinct parts of an integrated system. This is a proposed research direction, not a demonstrated end-to-end result.
 

@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Add stochastic scenario generation and comparative evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-10-23
+
+### Added
+
+- A paper note on offline network pricing (Hausenblas et al., 2025), linking shared-inventory decisions to logged-data coverage and distinguishing simulation evidence from deployment guarantees.
+
 ## 2026-10-21
 
 ### Added
