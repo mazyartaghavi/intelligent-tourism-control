@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Add stochastic scenario generation and comparative evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-10-24
+
+### Added
+
+- A paper note on the DroneCrowd benchmark (Wen et al., 2021), connecting aerial counting and tracking evaluation to occupancy-observation errors.
+
 ## 2026-10-23
 
 ### Added

@@ -17,6 +17,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 | [Elmachtoub and Grigas: Smart "Predict, then Optimize"](papers/2022-elmachtoub-smart-predict-optimize.md) | 2022 | Prediction-optimization integration; decision-focused evaluation | Full-text author manuscript | 2026-10-20 |
 | [Olivares et al.: Hierarchical Poisson-mixture forecasts](papers/2024-olivares-hierarchical-poisson-mixtures.md) | 2024 | Tourism demand forecasting; probabilistic aggregation | Full-text author manuscript, methods and results | 2026-10-21 |
 | [Hausenblas et al.: Offline network pricing](papers/2025-hausenblas-offline-network-pricing.md) | 2025 | Dynamic pricing; offline reinforcement learning; shared inventory | Full-text formulation, methods, and simulation results | 2026-10-23 |
+| [Wen et al.: DroneCrowd benchmark](papers/2021-wen-dronecrowd-benchmark.md) | 2021 | UAV/crowd sensing; counting; localization and tracking | Full-text author manuscript, dataset, methods, and results | 2026-10-24 |
 
 ## Emerging Connections
 
@@ -29,6 +30,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 - [Smart "Predict, then Optimize"](papers/2022-elmachtoub-smart-predict-optimize.md) motivates evaluating forecasts through downstream decision losses, while distinguishing uncertain objective coefficients from uncertain constraints.
 - [Hierarchical Poisson-mixture forecasts](papers/2024-olivares-hierarchical-poisson-mixtures.md) suggest joint demand scenarios with consistent location and regional totals; aggregation coherence, uncertainty calibration, and capacity compliance require distinct checks.
 - [Offline network pricing](papers/2025-hausenblas-offline-network-pricing.md) connects logged decisions to candidate pricing policies, but useful action coverage and credible evaluation remain prerequisites; avoiding live training does not establish deployment safety.
+- [DroneCrowd](papers/2021-wen-dronecrowd-benchmark.md) motivates separate checks of count accuracy and trajectory quality; aggregate counts alone cannot validate spatial occupancy or unique arrivals.
 
 Together, these papers suggest evaluating measurement, prediction, feasible decision making, visitor acceptance, and factual explanation as distinct parts of an integrated system. This is a proposed research direction, not a demonstrated end-to-end result.
 
