@@ -18,6 +18,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 | [Olivares et al.: Hierarchical Poisson-mixture forecasts](papers/2024-olivares-hierarchical-poisson-mixtures.md) | 2024 | Tourism demand forecasting; probabilistic aggregation | Full-text author manuscript, methods and results | 2026-10-21 |
 | [Hausenblas et al.: Offline network pricing](papers/2025-hausenblas-offline-network-pricing.md) | 2025 | Dynamic pricing; offline reinforcement learning; shared inventory | Full-text formulation, methods, and simulation results | 2026-10-23 |
 | [Wen et al.: DroneCrowd benchmark](papers/2021-wen-dronecrowd-benchmark.md) | 2021 | UAV/crowd sensing; counting; localization and tracking | Full-text author manuscript, dataset, methods, and results | 2026-10-24 |
+| [Bandalouski et al.: Disaggregated hotel pricing](papers/2021-bandalouski-disaggregated-hotel-pricing.md) | 2021 | Tourism-specific dynamic pricing; constrained optimization; demand segmentation | Full-text assumptions, formulation, and simulation design | 2026-10-25 |
 
 ## Emerging Connections
 
@@ -31,6 +32,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 - [Hierarchical Poisson-mixture forecasts](papers/2024-olivares-hierarchical-poisson-mixtures.md) suggest joint demand scenarios with consistent location and regional totals; aggregation coherence, uncertainty calibration, and capacity compliance require distinct checks.
 - [Offline network pricing](papers/2025-hausenblas-offline-network-pricing.md) connects logged decisions to candidate pricing policies, but useful action coverage and credible evaluation remain prerequisites; avoiding live training does not establish deployment safety.
 - [DroneCrowd](papers/2021-wen-dronecrowd-benchmark.md) motivates separate checks of count accuracy and trajectory quality; aggregate counts alone cannot validate spatial occupancy or unique arrivals.
+- [Disaggregated hotel pricing](papers/2021-bandalouski-disaggregated-hotel-pricing.md) offers a tractable pricing baseline while motivating tests of category sparsity, price-response assumptions, and realized inventory limits.
 
 Together, these papers suggest evaluating measurement, prediction, feasible decision making, visitor acceptance, and factual explanation as distinct parts of an integrated system. This is a proposed research direction, not a demonstrated end-to-end result.
 

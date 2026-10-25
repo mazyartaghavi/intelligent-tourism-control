@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Add stochastic scenario generation and comparative evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-10-25
+
+### Added
+
+- A paper note on demand-disaggregated hotel pricing (Bandalouski et al., 2021), connecting quadratic optimization to demand assumptions, category sparsity, and booking-capacity checks.
+
 ## 2026-10-24
 
 ### Added
