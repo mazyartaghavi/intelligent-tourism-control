@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Add stochastic scenario generation and comparative evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-10-26
+
+### Added
+
+- A paper note on RAGAs (Es et al., 2024), linking automated language evaluation to human agreement, source freshness, and consistency with numerical decisions.
+
 ## 2026-10-25
 
 ### Added
