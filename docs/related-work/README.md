@@ -20,6 +20,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 | [Wen et al.: DroneCrowd benchmark](papers/2021-wen-dronecrowd-benchmark.md) | 2021 | UAV/crowd sensing; counting; localization and tracking | Full-text author manuscript, dataset, methods, and results | 2026-10-24 |
 | [Bandalouski et al.: Disaggregated hotel pricing](papers/2021-bandalouski-disaggregated-hotel-pricing.md) | 2021 | Tourism-specific dynamic pricing; constrained optimization; demand segmentation | Full-text assumptions, formulation, and simulation design | 2026-10-25 |
 | [Es et al.: RAGAs evaluation](papers/2024-es-ragas-evaluation.md) | 2024 | Grounded language assistance; automated evaluation; human agreement | Published full-text metrics, dataset, results, and limitations | 2026-10-26 |
+| [Liu et al.: Crowd-aware itinerary coordination](papers/2025-liu-crowd-aware-itineraries.md) | 2025 | Congestion-aware recommendation; collective utility; visitor adherence | Published full-text formulation, methods, simulations, and limitations | 2026-10-28 |
 
 ## Emerging Connections
 
@@ -35,6 +36,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 - [DroneCrowd](papers/2021-wen-dronecrowd-benchmark.md) motivates separate checks of count accuracy and trajectory quality; aggregate counts alone cannot validate spatial occupancy or unique arrivals.
 - [Disaggregated hotel pricing](papers/2021-bandalouski-disaggregated-hotel-pricing.md) offers a tractable pricing baseline while motivating tests of category sparsity, price-response assumptions, and realized inventory limits.
 - [RAGAs](papers/2024-es-ragas-evaluation.md) provides candidate diagnostics for retrieval and generation; agreement with retrieved text, current factual accuracy, and consistency with numerical decisions remain separate evaluation targets.
+- [Crowd-aware itinerary coordination](papers/2025-liu-crowd-aware-itineraries.md) motivates modeling feedback from recommendations into future queues, while assessing individual outcomes and incomplete visitor adherence.
 
 Together, these papers suggest evaluating measurement, prediction, feasible decision making, visitor acceptance, and factual explanation as distinct parts of an integrated system. This is a proposed research direction, not a demonstrated end-to-end result.
 

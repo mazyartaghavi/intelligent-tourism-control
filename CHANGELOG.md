@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Add stochastic scenario generation and comparative evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-10-28
+
+### Added
+
+- A paper note on crowd-aware itinerary coordination (Liu et al., 2025), connecting simulated queue reductions to recommendation feedback, individual outcomes, and visitor adherence.
+
 ## 2026-10-26
 
 ### Added
