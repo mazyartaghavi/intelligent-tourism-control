@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Add stochastic scenario generation and comparative evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-10-29
+
+### Added
+
+- A paper note on DM-Count (Wang et al., 2020), connecting spatial counting supervision to aerial evaluation and occupancy-threshold errors.
+
 ## 2026-10-28
 
 ### Added

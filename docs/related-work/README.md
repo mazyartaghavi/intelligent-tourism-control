@@ -21,6 +21,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 | [Bandalouski et al.: Disaggregated hotel pricing](papers/2021-bandalouski-disaggregated-hotel-pricing.md) | 2021 | Tourism-specific dynamic pricing; constrained optimization; demand segmentation | Full-text assumptions, formulation, and simulation design | 2026-10-25 |
 | [Es et al.: RAGAs evaluation](papers/2024-es-ragas-evaluation.md) | 2024 | Grounded language assistance; automated evaluation; human agreement | Published full-text metrics, dataset, results, and limitations | 2026-10-26 |
 | [Liu et al.: Crowd-aware itinerary coordination](papers/2025-liu-crowd-aware-itineraries.md) | 2025 | Congestion-aware recommendation; collective utility; visitor adherence | Published full-text formulation, methods, simulations, and limitations | 2026-10-28 |
+| [Wang et al.: Distribution matching for counting](papers/2020-wang-distribution-matching-counts.md) | 2020 | Crowd sensing; density estimation; spatial supervision | Full-text author manuscript, objective and benchmark results | 2026-10-29 |
 
 ## Emerging Connections
 
@@ -37,6 +38,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 - [Disaggregated hotel pricing](papers/2021-bandalouski-disaggregated-hotel-pricing.md) offers a tractable pricing baseline while motivating tests of category sparsity, price-response assumptions, and realized inventory limits.
 - [RAGAs](papers/2024-es-ragas-evaluation.md) provides candidate diagnostics for retrieval and generation; agreement with retrieved text, current factual accuracy, and consistency with numerical decisions remain separate evaluation targets.
 - [Crowd-aware itinerary coordination](papers/2025-liu-crowd-aware-itineraries.md) motivates modeling feedback from recommendations into future queues, while assessing individual outcomes and incomplete visitor adherence.
+- [Distribution matching](papers/2020-wang-distribution-matching-counts.md) provides a candidate sensing baseline that supervises both total counts and spatial mass; regional errors still need validation before occupancy decisions.
 
 Together, these papers suggest evaluating measurement, prediction, feasible decision making, visitor acceptance, and factual explanation as distinct parts of an integrated system. This is a proposed research direction, not a demonstrated end-to-end result.
 
