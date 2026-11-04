@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Add stochastic scenario generation and comparative evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-11-04
+
+### Added
+
+- A paper note on hotel demand learning and pricing (Zhu et al., 2024), connecting grouped prediction and online evidence to sparse bookings, causal interpretation, and inventory checks.
+
 ## 2026-10-29
 
 ### Added
