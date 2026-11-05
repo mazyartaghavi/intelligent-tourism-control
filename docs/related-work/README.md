@@ -23,6 +23,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 | [Liu et al.: Crowd-aware itinerary coordination](papers/2025-liu-crowd-aware-itineraries.md) | 2025 | Congestion-aware recommendation; collective utility; visitor adherence | Published full-text formulation, methods, simulations, and limitations | 2026-10-28 |
 | [Wang et al.: Distribution matching for counting](papers/2020-wang-distribution-matching-counts.md) | 2020 | Crowd sensing; density estimation; spatial supervision | Full-text author manuscript, objective and benchmark results | 2026-10-29 |
 | [Zhu et al.: Hotel demand learning and pricing](papers/2024-zhu-hotel-demand-pricing.md) | 2024 | Tourism-specific pricing; grouped demand learning; online evaluation | Author-uploaded full-text formulation, model overview, and online test | 2026-11-04 |
+| [Deb et al.: NSGA-II](papers/2002-deb-nsga-ii.md) | 2002 | Constrained multi-objective optimization; Pareto trade-offs | Published full-text method, benchmark discussion, and constraint handling | 2026-11-05 |
 
 ## Emerging Connections
 
@@ -41,6 +42,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 - [Crowd-aware itinerary coordination](papers/2025-liu-crowd-aware-itineraries.md) motivates modeling feedback from recommendations into future queues, while assessing individual outcomes and incomplete visitor adherence.
 - [Distribution matching](papers/2020-wang-distribution-matching-counts.md) provides a candidate sensing baseline that supervises both total counts and spatial mass; regional errors still need validation before occupancy decisions.
 - [Hotel demand learning](papers/2024-zhu-hotel-demand-pricing.md) motivates sharing information across similar rooms; predictive performance, causal elasticity, and capacity-feasible pricing remain distinct evaluation questions.
+- [NSGA-II](papers/2002-deb-nsga-ii.md) motivates comparing allocation trade-offs before selecting objective weights; approximate Pareto coverage and constraint feasibility require separate checks.
 
 Together, these papers suggest evaluating measurement, prediction, feasible decision making, visitor acceptance, and factual explanation as distinct parts of an integrated system. This is a proposed research direction, not a demonstrated end-to-end result.
 

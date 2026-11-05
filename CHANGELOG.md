@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Add stochastic scenario generation and comparative evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-11-05
+
+### Added
+
+- A paper note on NSGA-II (Deb et al., 2002), connecting Pareto trade-offs to allocation comparisons, feasibility checks, and an enumerable reference experiment.
+
 ## 2026-11-04
 
 ### Added
