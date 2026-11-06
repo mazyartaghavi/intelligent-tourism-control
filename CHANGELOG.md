@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Add stochastic scenario generation and comparative evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-11-06
+
+### Added
+
+- A paper note on uncertainty-guided crowd annotation (Ranjan et al., 2021; ACCV 2020), connecting sample selection to camera adaptation, annotation effort, and uncertainty validation.
+
 ## 2026-11-05
 
 ### Added
