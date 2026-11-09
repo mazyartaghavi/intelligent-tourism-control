@@ -25,6 +25,7 @@ This is a curated starting collection, not an exhaustive or systematic review. N
 | [Zhu et al.: Hotel demand learning and pricing](papers/2024-zhu-hotel-demand-pricing.md) | 2024 | Tourism-specific pricing; grouped demand learning; online evaluation | Author-uploaded full-text formulation, model overview, and online test | 2026-11-04 |
 | [Deb et al.: NSGA-II](papers/2002-deb-nsga-ii.md) | 2002 | Constrained multi-objective optimization; Pareto trade-offs | Published full-text method, benchmark discussion, and constraint handling | 2026-11-05 |
 | [Ranjan et al.: Uncertainty-guided crowd annotation](papers/2021-ranjan-uncertainty-crowd-counting.md) | 2021 (ACCV 2020) | Crowd sensing; uncertainty; annotation selection | Full-text author manuscript, methods, selection results, and uncertainty evaluation | 2026-11-06 |
+| [Huangfu and Hall: Dual revised simplex](papers/2018-huangfu-dual-simplex.md) | 2018 | Sparse linear optimization; solver evaluation | Publisher full-text formulation and computational discussion | 2026-11-09 |
 
 ## Emerging Connections
 

@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Add stochastic scenario generation and comparative evaluation scripts.
 - Define stable interfaces between forecasting and optimization modules.
 
+## 2026-11-09
+
+### Added
+
+- A paper note on dual revised simplex (Huangfu and Hall, 2018), connecting sparse solver integration to numerical diagnostics and careful runtime comparisons.
+
 ## 2026-11-06
 
 ### Added
