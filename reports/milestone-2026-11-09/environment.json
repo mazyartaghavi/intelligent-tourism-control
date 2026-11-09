@@ -1,0 +1,28 @@
+{
+  "python": "3.13.2",
+  "platform": "Windows",
+  "architecture": "AMD64",
+  "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2",
+  "highs": "1.12.0",
+  "solver_method": "highs-ds",
+  "presolve": true,
+  "solver_tolerance": 1e-09,
+  "hash_convention": "SHA-256 of UTF-8 text normalized to LF line endings",
+  "config_sha256": "630bc1f31ceb5fdbccf3557d72e7717a1900bf37ec8fd32a438bc09893d7721f",
+  "source_sha256": {
+    "src/tourism_control/optimization/linear.py": "6a84a0108aeb5b124d6d0e9a28febddefb69b023820dd03e13fbc323c666daee",
+    "src/tourism_control/optimization/proportional.py": "cfc8f010865a31f1e0481fdbb64a25a0d543f2d18ce2a84df4a6ce2b8efab839",
+    "scripts/evaluation/run_milestone.py": "413296827ace5f00a9976a56c3fab491efc5dd593ddb68df63a6f383d3bc26b3",
+    "requirements-milestone.txt": "376bd58892533064095b12c369c4dd315e7739ad18f923712d83577ca98626ca",
+    "requirements-milestone-lock.txt": "ccbd8229d222a361c760f829c0e3e62beb09d9afe392e7ce5bfd1f46a96aa368",
+    "scripts/evaluation/verify_milestone.py": "7e6ae91a0e147fdf87517583171a60cca3dbf78e093b39829859709858cbab6d",
+    "tests/unit/test_allocation_scenarios.py": "d65a215818ee4c07e47a6284b31f93e57ec0cb17eb9672b2962d9c0f09502714",
+    "tests/unit/test_linear.py": "1c04a6ce8e6dd9df461847b5ebfce7b5696bfada99dcff4e508033587fd5fef5",
+    "tests/unit/test_milestone.py": "852686f34023464f22c4f57a5361321046c42bb280c290136612ae84cf82e730",
+    "tests/unit/test_proportional.py": "bff7ab0044553073d2e35adbb8e02d4ea6bb653c79a93fe8a7bde54d1d13a92b"
+  },
+  "runtime_note": "Model validation, construction and solve wall time; single-run descriptive timings, not a solver speed benchmark."
+}

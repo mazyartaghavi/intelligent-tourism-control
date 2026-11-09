@@ -1,0 +1,9 @@
+{
+  "demand": [[80, 40, 30]],
+  "capacity": [[60, 50, 30]],
+  "budget": [90],
+  "unmet_penalty": [[6, 2, 1]],
+  "operating_cost": [[0.5, 0.5, 0.5]],
+  "adjustment_cost": [0, 0, 0],
+  "initial_allocation": [0, 0, 0]
+}

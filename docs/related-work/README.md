@@ -4,6 +4,8 @@ An expanding, selective review of research relevant to intelligent tourism contr
 
 This is a curated starting collection, not an exhaustive or systematic review. Notes are added individually. Published papers and preprints are identified separately; full-text access and the sections reviewed are recorded in each note.
 
+The [dated literature-to-implementation synthesis](synthesis.md) connects this collection to the completed allocation milestone and identifies which methods remain proposals.
+
 ## Paper Index
 
 | Paper | Year | Topic | Evidence reviewed | Added |

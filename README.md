@@ -2,6 +2,35 @@
 
 A research-oriented framework for intelligent control in sustainable tourism management using reinforcement learning, mathematical optimization, predictive modeling, recommendation systems, retrieval-augmented generation, generative AI, autonomous sensing, and intelligent robotics.
 
+## Milestone 01 — 9 November 2026
+
+**A working constrained allocator and a reproducible decision-evaluation package are now available.**
+
+| Literature | Executable evidence | Verification |
+|:---:|:---:|:---:|
+| **18 reviewed papers** | **218 successful LP solves** | **25 automated tests passed** |
+
+- **Optimization:** multi-period capacity allocation with explicit budgets, costs, adjustment penalties, and optional change limits.
+- **Evaluation:** eight fixed cases, 200 paired forecast-error comparisons from 50 independent trajectories, and ten sensitivity pairs; full inputs, code, CSV/JSON outputs, and numerical diagnostics are published.
+
+The synthetic study found a **17.18% lower aggregate weighted objective with exact demand**, falling to **6.20% under the strongest forecast noise**. Unweighted unmet demand increased, and one noisy trajectory favored the heuristic. These are documented trade-offs under synthetic assumptions, not field-performance claims.
+
+**[Read the dated achievement report](reports/milestone-2026-11-09/README.md)** · [Model and pseudocode](docs/methodology/allocation-algorithm.md) · [Literature synthesis](docs/related-work/synthesis.md) · [Raw results](reports/milestone-2026-11-09/results.json)
+
+![Allocation milestone results](reports/milestone-2026-11-09/figures/results-overview.svg)
+
+### Run the milestone
+
+Using Python 3.13 in an isolated environment:
+
+```sh
+python -m pip install -r requirements-milestone-lock.txt
+python src/tourism_control/optimization/linear.py configs/optimization/milestone-example.json
+python scripts/evaluation/verify_milestone.py
+```
+
+The verifier runs the tests and reproduces the stored scientific results. To generate separate outputs, run `python scripts/evaluation/run_milestone.py --output reports/local-reproduction`.
+
 ## Try the Capacity Allocation Baseline
 
 A first executable heuristic distributes a shared budget in proportion to demand capped by local capacity. Run this synthetic example from the repository root with Python 3.10 or later; no additional packages are required:
@@ -10,12 +39,12 @@ A first executable heuristic distributes a shared budget in proportion to demand
 python src/tourism_control/optimization/proportional.py --demand 80 40 30 --capacity 60 50 30 --budget 90
 ```
 
-The JSON output reports allocations (approximately `41.54`, `27.69`, and `20.77`), unmet demand, and unused budget. These are divisible capacity units for one time period. See the [model assumptions and next milestone](docs/research/optimization-milestone.md).
+The JSON output reports allocations (approximately `41.54`, `27.69`, and `20.77`), unmet demand, and unused budget. These are divisible capacity units for one time period. See the [model assumptions and implementation status](docs/research/optimization-milestone.md).
 
 Run the baseline checks with:
 
 ```sh
-python -m unittest discover -s tests/unit -v
+python -m unittest discover -s tests/unit -p test_proportional.py -v
 ```
 
 ## Reproduce the Scenario Checks
@@ -38,13 +67,13 @@ These are reproducible fixture results in divisible service-capacity units, not 
 
 ## Scientific Foundations
 
-The research specifications now define the equations, assumptions, and evaluation criteria for the planned decision-making modules:
+The scientific documentation defines the equations, assumptions, and evaluation criteria for implemented allocation methods and planned decision-making modules:
 
 - [Mathematical framework](docs/methodology/mathematical-framework.md): demand forecasting, uncertainty, constrained objectives, pricing policies, congestion-aware recommendation, and grounded language interfaces.
 - [Optimization milestone](docs/research/optimization-milestone.md#deterministic-allocation-formulation): an explicit linear allocation model and its relationship to the implemented proportional heuristic.
 - [Evaluation protocol](docs/experiments/evaluation-protocol.md): reference methods, metric definitions, temporal validation, ablations, and reproducibility requirements.
 
-These documents describe planned methods. The proportional-allocation heuristic remains the current executable baseline.
+The proportional heuristic and constrained linear allocator are implemented and evaluated on synthetic scenarios. Forecasting, pricing, recommendation, and language interfaces remain specifications.
 
 ## Related Work and Literature Review
 
@@ -442,17 +471,17 @@ The project aims to investigate how intelligent control methods can support sust
 
 ## Project Status
 
-The project is currently in **early implementation and technical specification**. A deterministic proportional-allocation heuristic and its unit tests are available. The constrained optimizer and comparative empirical evaluation remain planned.
+The project has completed **Milestone 01: validated allocation implementation and synthetic evaluation**, dated 9 November 2026. A proportional heuristic, constrained linear allocator, comparative benchmark, and reproducible results are available. Empirical tourism validation and broader component integration remain future work.
 
 | Workstream | Status | Current focus |
 |---|---|---|
 | Research architecture | Established | Maintaining clear interfaces between sensing, forecasting, optimization, recommendation, and language components |
 | LLM and RAG | Design | Defining grounded interaction, retrieval, and evaluation interfaces |
-| Mathematical optimization | Baseline preparation | Proportional-allocation heuristic implemented; constrained optimizer and comparative evaluation planned |
+| Mathematical optimization | Implemented and tested | Proportional comparator, multi-period LP, numerical checks, and synthetic comparisons |
 | Reinforcement learning | Planned | Comparing learned policies with optimization and heuristic baselines |
-| Integrated evaluation | Protocol specified | Metric definitions, baseline comparisons, ablations, and reproducibility requirements documented; experiments planned |
+| Integrated evaluation | Allocation benchmark complete | Paired forecast-error stress tests, sensitivity analysis, and archived outputs; broader system evaluation planned |
 
-Status labels describe repository maturity rather than validated scientific performance. See the [optimization milestone](docs/research/optimization-milestone.md) for the next implementation target and [CHANGELOG.md](CHANGELOG.md) for notable repository updates.
+Status labels describe repository maturity rather than validated scientific performance. See the [dated achievement report](reports/milestone-2026-11-09/README.md) for evidence and limits and [CHANGELOG.md](CHANGELOG.md) for notable repository updates.
 
 ## Roadmap
 
@@ -462,9 +491,9 @@ Status labels describe repository maturity rather than validated scientific perf
 - [x] Implement a transparent proportional-allocation heuristic with feasibility tests.
 - [x] Document the mathematical framework, explicit allocation model, and evaluation protocol.
 - [x] Add versioned synthetic scenario fixtures and a runnable allocation evaluation report.
-- [ ] Implement a deterministic optimization baseline for comparison.
-- [ ] Add synthetic scenario generation, configuration files, and unit tests.
-- [ ] Report feasibility, objective value, runtime, and sensitivity results.
+- [x] Implement a deterministic optimization baseline for comparison.
+- [x] Add synthetic scenario generation, configuration files, and unit tests.
+- [x] Report feasibility, objective value, runtime, and sensitivity results.
 - [ ] Connect forecasting outputs to optimization inputs through a documented interface.
 - [ ] Evaluate adaptive policies against fixed and optimization-based baselines.
 
@@ -472,7 +501,7 @@ Roadmap items may be refined as assumptions, data availability, and experimental
 
 ## Reproducibility
 
-The project will progressively incorporate:
+The milestone includes pinned dependencies, configuration-driven experiments, seeded scenarios, automated tests, and archived results. Further development will extend:
 
 * reproducible environments,
 * configuration-driven experiments,

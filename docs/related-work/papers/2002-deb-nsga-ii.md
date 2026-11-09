@@ -10,7 +10,7 @@ NSGA-II combines nondominated sorting, parent–offspring selection, and crowdin
 
 ## Relevance to This Repository
 
-Our interpretation: the [multiple-objective allocation specification](../../methodology/mathematical-framework.md#3-constrained-allocation-and-multiple-objectives) could compare alternative service–cost trade-offs before choosing weights. Crowding distance concerns objective-space diversity, not physical congestion. NSGA-II is a candidate later comparator, not an implemented method or a replacement for the planned linear baseline.
+Our interpretation: the [multiple-objective allocation specification](../../methodology/mathematical-framework.md#3-constrained-allocation-and-multiple-objectives) could compare alternative service–cost trade-offs before choosing weights. Crowding distance concerns objective-space diversity, not physical congestion. NSGA-II is a candidate later comparator, not an implemented method or a replacement for the documented linear baseline.
 
 ## Limitations
 

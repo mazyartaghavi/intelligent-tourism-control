@@ -1,0 +1,80 @@
+{
+  "achievement_date": "2026-11-09",
+  "evidence_type": "synthetic evaluation",
+  "fixed_cases": 8,
+  "stress_pairs": 200,
+  "independent_stress_seeds": 50,
+  "sensitivity_pairs": 10,
+  "lp_solves": 218,
+  "lp_feasible": 218,
+  "lp_max_violation": 1.4210854715202004e-14,
+  "lp_max_primal_dual_gap": 2.7284841053187847e-12,
+  "lp_median_elapsed_seconds": 0.002997000003233552,
+  "stress": [
+    {
+      "noise_sigma": 0.0,
+      "trajectories": 50,
+      "mean_forecast_mae": 0.0,
+      "lp_mean_realized_objective": 1801.039461289881,
+      "proportional_mean_realized_objective": 2174.560497971583,
+      "mean_paired_saving": 373.5210366817017,
+      "paired_saving_ci95": [
+        339.6081243666278,
+        407.1651296666745
+      ],
+      "aggregate_saving_percent": 17.176851921577708,
+      "lp_worse_trajectories": 0,
+      "lp_mean_unmet": 434.38699999999994,
+      "proportional_mean_unmet": 420.08099999999996
+    },
+    {
+      "noise_sigma": 0.15,
+      "trajectories": 50,
+      "mean_forecast_mae": 4.78279091614236,
+      "lp_mean_realized_objective": 1855.0190814563405,
+      "proportional_mean_realized_objective": 2173.211586911403,
+      "mean_paired_saving": 318.1925054550621,
+      "paired_saving_ci95": [
+        286.7277260614676,
+        350.4013661662441
+      ],
+      "aggregate_saving_percent": 14.641579649742319,
+      "lp_worse_trajectories": 0,
+      "lp_mean_unmet": 444.4462914064832,
+      "proportional_mean_unmet": 420.74489863182237
+    },
+    {
+      "noise_sigma": 0.35,
+      "trajectories": 50,
+      "mean_forecast_mae": 11.10693464753174,
+      "lp_mean_realized_objective": 1946.661703939589,
+      "proportional_mean_realized_objective": 2197.4794231166898,
+      "mean_paired_saving": 250.81771917710054,
+      "paired_saving_ci95": [
+        220.9255513932528,
+        281.62438673664417
+      ],
+      "aggregate_saving_percent": 11.413882493669282,
+      "lp_worse_trajectories": 0,
+      "lp_mean_unmet": 456.5938963385459,
+      "proportional_mean_unmet": 427.3722016881382
+    },
+    {
+      "noise_sigma": 0.7,
+      "trajectories": 50,
+      "mean_forecast_mae": 21.72161281982143,
+      "lp_mean_realized_objective": 2173.10266730353,
+      "proportional_mean_realized_objective": 2316.813003022767,
+      "mean_paired_saving": 143.7103357192367,
+      "paired_saving_ci95": [
+        119.41197479709501,
+        168.64136500749422
+      ],
+      "aggregate_saving_percent": 6.202932024800297,
+      "lp_worse_trajectories": 1,
+      "lp_mean_unmet": 487.11079943470924,
+      "proportional_mean_unmet": 457.74624972578965
+    }
+  ],
+  "unexpected_failures": 0
+}

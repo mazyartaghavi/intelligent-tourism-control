@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "achievement_date": "2026-11-09",
+  "units": "synthetic divisible service units per period; synthetic objective units",
+  "stress": {
+    "seed_start": 1000,
+    "replications": 50,
+    "periods": 6,
+    "locations": 4,
+    "noise_sigma": [0.0, 0.15, 0.35, 0.7],
+    "bootstrap_seed": 7301,
+    "bootstrap_resamples": 5000,
+    "capacity_range": [15, 56],
+    "demand_range": [20, 61],
+    "penalty_range": [1, 8],
+    "operating_cost_range": [0.2, 1.0],
+    "budget_fraction": 0.65,
+    "adjustment_cost": 0.5
+  },
+  "sensitivity": {
+    "budgets": [30, 60, 90, 120, 150],
+    "adjustment_costs": [0.0, 0.25, 0.75, 2.0, 5.0]
+  },
+  "fixed": [
+    {"id": "uniform_priorities", "problem": {
+      "demand": [[80, 40, 30]], "capacity": [[60, 50, 30]], "budget": [90],
+      "unmet_penalty": [[1, 1, 1]], "operating_cost": [[0, 0, 0]],
+      "adjustment_cost": [0, 0, 0], "initial_allocation": [0, 0, 0]}},
+    {"id": "weighted_priorities", "problem": {
+      "demand": [[80, 40, 30]], "capacity": [[60, 50, 30]], "budget": [90],
+      "unmet_penalty": [[6, 2, 1]], "operating_cost": [[0.5, 0.5, 0.5]],
+      "adjustment_cost": [0, 0, 0], "initial_allocation": [0, 0, 0]}},
+    {"id": "expensive_service", "problem": {
+      "demand": [[20, 80]], "capacity": [[50, 30]], "budget": [100],
+      "unmet_penalty": [[1, 1]], "operating_cost": [[2, 0.2]],
+      "adjustment_cost": [0, 0], "initial_allocation": [0, 0]}},
+    {"id": "temporal_coupling", "problem": {
+      "demand": [[10], [2], [10]], "capacity": [[10], [10], [10]], "budget": [10, 10, 10],
+      "unmet_penalty": [[1], [1], [1]], "operating_cost": [[0], [0], [0]],
+      "adjustment_cost": [0.75], "initial_allocation": [0]}},
+    {"id": "closed_location", "problem": {
+      "demand": [[10, 20]], "capacity": [[0, 30]], "budget": [30],
+      "unmet_penalty": [[3, 1]], "operating_cost": [[0.1, 0.1]],
+      "adjustment_cost": [0, 0], "initial_allocation": [0, 0]}},
+    {"id": "zero_demand", "problem": {
+      "demand": [[0, 0]], "capacity": [[20, 20]], "budget": [20],
+      "unmet_penalty": [[1, 1]], "operating_cost": [[0.1, 0.1]],
+      "adjustment_cost": [0, 0], "initial_allocation": [0, 0]}},
+    {"id": "zero_budget", "problem": {
+      "demand": [[10, 20]], "capacity": [[20, 20]], "budget": [0],
+      "unmet_penalty": [[1, 1]], "operating_cost": [[0.1, 0.1]],
+      "adjustment_cost": [0, 0], "initial_allocation": [0, 0]}},
+    {"id": "ramp_transition", "problem": {
+      "demand": [[30, 30], [30, 30]], "capacity": [[30, 30], [30, 30]], "budget": [10, 40],
+      "unmet_penalty": [[1, 1], [1, 1]], "operating_cost": [[0, 0], [0, 0]],
+      "adjustment_cost": [0, 0], "initial_allocation": [10, 10], "max_change": [5, 5]}}
+  ]
+}

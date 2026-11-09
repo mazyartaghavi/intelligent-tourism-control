@@ -6,14 +6,18 @@ Notable repository-level changes are documented in this file. The project follow
 
 ### Planned
 
-- Implement the first constrained optimization baseline.
-- Add stochastic scenario generation and comparative evaluation scripts.
-- Define stable interfaces between forecasting and optimization modules.
+- Validate allocation objectives and forecast errors with appropriately usable historical observations.
+- Extend the baseline with empirical service requirements and robust or stochastic decisions.
+- Integrate forecasting, sensing, pricing, recommendation, and grounded explanations through separately tested interfaces.
 
 ## 2026-11-09
 
 ### Added
 
+- Milestone 01, dated 9 November 2026: a multi-period continuous allocation solver with explicit constraints, optional change limits, structured output, and independent numerical diagnostics.
+- A reproducible synthetic benchmark: eight fixed cases, 200 paired forecast-error comparisons across 50 independent seeds, and ten sensitivity pairs; full JSON/CSV evidence, vector plots, pinned dependencies, and source fingerprints.
+- A dated achievement report, literature synthesis, mathematical algorithm description, pseudocode, and experimental contract.
+- Automated checks covering analytical and enumerated references, input validation, expected infeasibility, and reproduction of scientific results.
 - A paper note on dual revised simplex (Huangfu and Hall, 2018), connecting sparse solver integration to numerical diagnostics and careful runtime comparisons.
 
 ## 2026-11-06

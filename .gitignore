@@ -151,6 +151,8 @@ activemq-data/
 .env
 .envrc
 .venv
+.venv-milestone/
+/reports/local-reproduction/
 env/
 venv/
 ENV/

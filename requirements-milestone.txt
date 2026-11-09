@@ -1,0 +1,4 @@
+# Validated with Python 3.13.2. The proportional baseline remains standard-library only.
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2

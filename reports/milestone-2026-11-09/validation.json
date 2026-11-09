@@ -1,0 +1,17 @@
+{
+  "achievement_date": "2026-11-09",
+  "tests_run": 25,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "scientific_results_reproduced": true,
+  "absolute_tolerance": 1e-07,
+  "ignored_fields": [
+    "elapsed_seconds",
+    "iterations",
+    "lp_median_elapsed_seconds",
+    "solver_message"
+  ],
+  "source_fingerprints_verified": true,
+  "command": "python scripts/evaluation/verify_milestone.py --record"
+}

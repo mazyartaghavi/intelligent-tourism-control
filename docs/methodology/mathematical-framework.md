@@ -1,6 +1,6 @@
 # Mathematical Framework
 
-Status: research specification. The [proportional capacity-allocation heuristic](../../src/tourism_control/optimization/proportional.py) is implemented; the forecasting, pricing, recommendation, and language interfaces below describe planned components. No empirical performance or deployment results are asserted.
+Status: implemented allocation model with broader research specifications. The [proportional heuristic](../../src/tourism_control/optimization/proportional.py) and [linear allocator](../../src/tourism_control/optimization/linear.py) have a [dated synthetic evaluation](../../reports/milestone-2026-11-09/README.md). Forecasting, pricing, recommendation, and language interfaces remain planned; no field-performance or deployment results are asserted.
 
 ## 1. Notation and Decision Timing
 
@@ -73,7 +73,7 @@ $$
 
 Tildes indicate declared scaling to comparable units, fixed before test evaluation. Report component values and sensitivity to weights; a single weighted score does not establish that all objectives improve. Capacity and resource constraints remain explicit rather than being enforced only through penalties.
 
-The [optimization milestone](../research/optimization-milestone.md#deterministic-allocation-formulation) defines a narrower linear model with allocation, unmet demand, operating cost, and temporal adjustment terms. It is the next implementation target for comparison with the existing heuristic.
+The [optimization milestone](../research/optimization-milestone.md#deterministic-allocation-formulation) defines a narrower linear model with allocation, unmet demand, operating cost, and temporal adjustment terms. It is implemented and compared with the proportional heuristic in the [dated allocation benchmark](../../reports/milestone-2026-11-09/README.md).
 
 ## 4. Dynamic Pricing as Sequential Decision Making
 
@@ -144,8 +144,8 @@ The proposed interface explains feasible decisions and cites supporting evidence
 
 | Component | Available artifact | Remaining work |
 |---|---|---|
-| Proportional allocation | Executable heuristic, unit tests, and fixed-scenario runner | Comparative experiments against other allocation methods |
-| Constrained allocation | Explicit mathematical specification | Solver implementation and validation |
+| Proportional allocation | Executable heuristic, unit tests, fixed cases, and LP comparisons | Evaluation on empirically justified scenarios |
+| Constrained allocation | Multi-period LP, explicit constraints, numerical checks, and synthetic benchmark | Robust/stochastic extensions and empirical validation |
 | Forecasting and pricing | Equations and assumptions | Data interfaces, models, simulator, policy evaluation |
 | Recommendation and language interface | Utility and information-flow specification | Ranking, retrieval, generation, and evaluation implementations |
 

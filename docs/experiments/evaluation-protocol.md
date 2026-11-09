@@ -1,6 +1,6 @@
 # Evaluation Protocol
 
-Status: proposed comparison protocol with an implemented single-method scenario runner. The allocation tests and fixed scenario checks assess software behavior and feasibility; they do not establish superiority over another method.
+Status: general evaluation protocol with implemented proportional and LP benchmark runners. The [9 November 2026 experiment contract](milestone-2026-11-09.md) and [results](../../reports/milestone-2026-11-09/README.md) document completed synthetic comparisons and their limits.
 
 ## Available Scenario Runner
 
@@ -10,7 +10,7 @@ The [versioned fixture](../../configs/optimization/allocation-scenarios.json) ha
 
 Use `--scenarios path/to/scenarios.json` to evaluate another configuration. Entries run in file order; these fixed inputs require no random seed. The output reports the method, schema version, and absolute feasibility tolerance of `1e-9` service-capacity units. It checks non-negative allocation, local capacity, requested demand, and the shared budget. A report containing an infeasible allocation exits with status 1; invalid input exits with status 2. Values displayed in the table are rounded to two decimal places; feasibility uses unrounded values.
 
-The five supplied scenarios are regression fixtures, not a representative demand sample or an evaluation of a constrained optimizer. Comparative experiments, stochastic scenario generation, and the full reproducibility record below remain future work.
+The five supplied scenarios are regression fixtures, not a representative demand sample or an evaluation of a constrained optimizer. The separate [milestone benchmark](milestone-2026-11-09.md) adds comparative experiments, seeded forecast-error stress tests, and a full reproducibility record.
 
 ## 1. Experimental Contract
 
@@ -27,7 +27,7 @@ Use the same observation availability and evaluation scenarios for competing met
 | Component | Reference methods | Main comparison |
 |---|---|---|
 | Forecasting | Last observation; seasonal naive where appropriate | Accuracy by horizon and location |
-| Allocation | Existing proportional heuristic; planned constrained optimizer | Feasibility and common objective components |
+| Allocation | Implemented proportional heuristic and constrained LP | Feasibility and common objective components |
 | Pricing | Fixed, rule-based, and optimization-based policies | Realized revenue, congestion, unmet demand, and service measures |
 | Recommendation | Preference-only and congestion-aware rankings | Ranking quality and destination effects |
 | Language interface | Matched generation with and without retrieved evidence | Supported claims and consistency with structured decisions |
@@ -111,7 +111,7 @@ Report means, dispersion, confidence intervals, and effect sizes for paired meth
 
 ## 7. Reproducibility Record
 
-Each future experiment should preserve:
+Each experiment should preserve:
 
 - Code revision, method name, configuration, and data or scenario version.
 - Training and evaluation seeds, split boundaries, horizon, and interval length.
