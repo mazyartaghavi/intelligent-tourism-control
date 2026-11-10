@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Extend the baseline with empirical service requirements and robust or stochastic decisions.
 - Integrate forecasting, sensing, pricing, recommendation, and grounded explanations through separately tested interfaces.
 
+## 2026-11-10
+
+### Added
+
+- A paper note on individual counting from moving drones (Fan et al., 2025), connecting temporal density estimation to viewpoint changes, re-entry checks, and physical-zone arrival validation.
+
 ## 2026-11-09
 
 ### Added

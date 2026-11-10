@@ -28,6 +28,7 @@ The [dated literature-to-implementation synthesis](synthesis.md) connects this c
 | [Deb et al.: NSGA-II](papers/2002-deb-nsga-ii.md) | 2002 | Constrained multi-objective optimization; Pareto trade-offs | Published full-text method, benchmark discussion, and constraint handling | 2026-11-05 |
 | [Ranjan et al.: Uncertainty-guided crowd annotation](papers/2021-ranjan-uncertainty-crowd-counting.md) | 2021 (ACCV 2020) | Crowd sensing; uncertainty; annotation selection | Full-text author manuscript, methods, selection results, and uncertainty evaluation | 2026-11-06 |
 | [Huangfu and Hall: Dual revised simplex](papers/2018-huangfu-dual-simplex.md) | 2018 | Sparse linear optimization; solver evaluation | Publisher full-text formulation and computational discussion | 2026-11-09 |
+| [Fan et al.: Individual counting from moving drones](papers/2025-fan-moving-drone-counting.md) | 2025 | UAV/crowd sensing; temporal counting; changing viewpoints | Full-text author manuscript, dataset, method, results, and limitations | 2026-11-10 |
 
 ## Emerging Connections
 
@@ -48,6 +49,7 @@ The [dated literature-to-implementation synthesis](synthesis.md) connects this c
 - [Hotel demand learning](papers/2024-zhu-hotel-demand-pricing.md) motivates sharing information across similar rooms; predictive performance, causal elasticity, and capacity-feasible pricing remain distinct evaluation questions.
 - [NSGA-II](papers/2002-deb-nsga-ii.md) motivates comparing allocation trade-offs before selecting objective weights; approximate Pareto coverage and constraint feasibility require separate checks.
 - [Uncertainty-guided crowd annotation](papers/2021-ranjan-uncertainty-crowd-counting.md) motivates selecting informative sensing examples while measuring labeling effort; useful error rankings do not by themselves establish calibrated occupancy uncertainty.
+- [Moving-drone individual counting](papers/2025-fan-moving-drone-counting.md) extends sensing evaluation to changing viewpoints; entries into a camera view need spatial calibration and re-entry checks before they can represent arrivals to a physical zone.
 
 Together, these papers suggest evaluating measurement, prediction, feasible decision making, visitor acceptance, and factual explanation as distinct parts of an integrated system. This is a proposed research direction, not a demonstrated end-to-end result.
 
