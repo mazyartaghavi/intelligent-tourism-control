@@ -29,6 +29,7 @@ The [dated literature-to-implementation synthesis](synthesis.md) connects this c
 | [Ranjan et al.: Uncertainty-guided crowd annotation](papers/2021-ranjan-uncertainty-crowd-counting.md) | 2021 (ACCV 2020) | Crowd sensing; uncertainty; annotation selection | Full-text author manuscript, methods, selection results, and uncertainty evaluation | 2026-11-06 |
 | [Huangfu and Hall: Dual revised simplex](papers/2018-huangfu-dual-simplex.md) | 2018 | Sparse linear optimization; solver evaluation | Publisher full-text formulation and computational discussion | 2026-11-09 |
 | [Fan et al.: Individual counting from moving drones](papers/2025-fan-moving-drone-counting.md) | 2025 | UAV/crowd sensing; temporal counting; changing viewpoints | Full-text author manuscript, dataset, method, results, and limitations | 2026-11-10 |
+| [Jaillet et al.: Pricing hotel room upgrades](papers/2024-jaillet-hotel-upgrade-pricing.md) | 2024 | Hotel pricing and room inventory | Author manuscript, upgrade policy and hotel simulation | 2026-11-11 |
 
 ## Emerging Connections
 
