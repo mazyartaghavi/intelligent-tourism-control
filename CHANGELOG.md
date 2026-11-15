@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Extend the baseline with empirical service requirements and robust or stochastic decisions.
 - Integrate forecasting, sensing, pricing, recommendation, and grounded explanations through separately tested interfaces.
 
+## 2026-11-15
+
+### Added
+
+- A review of Bayesian crowd-counting loss (Ma et al., 2019), connecting point supervision to the proposed sensing comparison and annotation-error evaluation.
+
 ## 2026-11-11
 
 ### Added
