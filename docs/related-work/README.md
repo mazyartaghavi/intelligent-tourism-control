@@ -32,6 +32,7 @@ The [dated literature-to-implementation synthesis](synthesis.md) connects this c
 | [Jaillet et al.: Pricing hotel room upgrades](papers/2024-jaillet-hotel-upgrade-pricing.md) | 2024 | Hotel pricing and room inventory | Author manuscript, upgrade policy and hotel simulation | 2026-11-11 |
 | [Ma et al.: Bayesian counting loss](papers/2019-ma-bayesian-counting-loss.md) | 2019 | Crowd sensing and point supervision | Full author manuscript, formulation and ablations | 2026-11-15 |
 | [Zhu et al.: Hotel price elasticity](papers/2022-zhu-hotel-price-elasticity.md) | 2022 | Tourism pricing; elasticity and occupancy prediction | Full author manuscript, formulation, results, and ablations | 2026-11-16 |
+| [Gao et al.: Citation evaluation with ALCE](papers/2023-gao-citation-evaluation.md) | 2023 | Grounded language assistance; evidence support and evaluation | Published full-text metrics, retrieval analysis, human evaluation, and limitations | 2026-11-17 |
 
 ## Emerging Connections
 

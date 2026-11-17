@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Extend the baseline with empirical service requirements and robust or stochastic decisions.
 - Integrate forecasting, sensing, pricing, recommendation, and grounded explanations through separately tested interfaces.
 
+## 2026-11-17
+
+### Added
+
+- Reviewed ALCE citation evaluation, linking evidence support to proposed tourism-assistance checks for freshness and consistency with numerical decisions. [Paper note](docs/related-work/papers/2023-gao-citation-evaluation.md)
+
 ## 2026-11-16
 
 ### Added
