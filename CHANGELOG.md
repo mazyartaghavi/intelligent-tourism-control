@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Extend the baseline with empirical service requirements and robust or stochastic decisions.
 - Integrate forecasting, sensing, pricing, recommendation, and grounded explanations through separately tested interfaces.
 
+## 2026-11-18
+
+### Added
+
+- Reviewed EnbPI prediction intervals, distinguishing marginal coverage from peak-period and joint coverage and proposing chronological demand-calibration tests. [Paper note](docs/related-work/papers/2021-xu-ensemble-prediction-intervals.md)
+
 ## 2026-11-17
 
 ### Added
