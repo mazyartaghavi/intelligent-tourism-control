@@ -2,6 +2,12 @@
 
 A research-oriented framework for intelligent control in sustainable tourism management using reinforcement learning, mathematical optimization, predictive modeling, recommendation systems, retrieval-augmented generation, generative AI, autonomous sensing, and intelligent robotics.
 
+## Milestone 02 — Forecasting and sequential control — 21 November 2026
+
+Daily forecasts now feed the capacity allocator, and a separate benchmark compares proportional allocation, receding-horizon optimization, and a tabular learned policy. On 16 held-out synthetic scenarios, the learned policy reduced weighted cost versus proportional allocation. Both the LP and the validation-selected fixed priority rule achieved lower weighted cost than the learned policy.
+
+**[Read the milestone report](reports/sequential-control-stage-e/README.md)** · [Daily control model](docs/methodology/daily-capacity-control.md) · [Raw comparison results](reports/sequential-control-stage-e/results.json)
+
 ## Milestone 01 — 9 November 2026
 
 **A working constrained allocator and a reproducible decision-evaluation package are now available.**
@@ -487,7 +493,7 @@ The project has completed **Milestone 01: validated allocation implementation an
 | LLM and RAG | Design | Defining grounded interaction, retrieval, and evaluation interfaces |
 | Mathematical optimization | Implemented and tested | Proportional comparator, multi-period LP, numerical checks, and synthetic comparisons |
 | Demand forecasting | Implemented and tested on synthetic demand | Daily point forecasts, chronological evaluation, and horizon-specific errors |
-| Reinforcement learning | Planned | Comparing learned policies with optimization and heuristic baselines |
+| Reinforcement learning | Tested on synthetic scenarios | Feasible action menu, tabular policy, and paired comparison with LP and fixed rules |
 | Integrated evaluation | Allocation benchmark complete | Paired forecast-error stress tests, sensitivity analysis, and archived outputs; broader system evaluation planned |
 
 Status labels describe repository maturity rather than validated scientific performance. See the [dated achievement report](reports/milestone-2026-11-09/README.md) for evidence and limits and [CHANGELOG.md](CHANGELOG.md) for notable repository updates.
@@ -505,7 +511,7 @@ Status labels describe repository maturity rather than validated scientific perf
 - [x] Report feasibility, objective value, runtime, and sensitivity results.
 - [x] Implement and evaluate point forecast baselines on chronological synthetic demand data.
 - [x] Connect forecasting outputs to optimization inputs and evaluate realized outcomes.
-- [ ] Evaluate adaptive policies against fixed and optimization-based baselines.
+- [x] Evaluate a tabular adaptive policy against fixed and optimization-based baselines on held-out synthetic scenarios.
 
 Roadmap items may be refined as assumptions, data availability, and experimental evidence evolve.
 

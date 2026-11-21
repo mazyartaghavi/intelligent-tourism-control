@@ -147,6 +147,7 @@ The proposed interface explains feasible decisions and cites supporting evidence
 | Proportional allocation | Executable heuristic, unit tests, fixed cases, and LP comparisons | Evaluation on empirically justified scenarios |
 | Constrained allocation | Multi-period LP, explicit constraints, numerical checks, and synthetic benchmark | Robust/stochastic extensions and empirical validation |
 | Demand forecasting | Daily point forecast interface, three baselines, and chronological synthetic evaluation | Empirical validation and interval calibration |
+| Sequential allocation | [Daily constrained environment](daily-capacity-control.md) and [tabular policy](tabular-allocation-policy.md) with synthetic comparison | Validation under different demand and cost assumptions |
 | Pricing | Equations and assumptions | Data interfaces, simulator, and policy evaluation |
 | Recommendation and language interface | Utility and information-flow specification | Ranking, retrieval, generation, and evaluation implementations |
 
