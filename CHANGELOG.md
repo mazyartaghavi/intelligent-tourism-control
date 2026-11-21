@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Extend the baseline with empirical service requirements and robust or stochastic decisions.
 - Integrate forecasting, sensing, pricing, recommendation, and grounded explanations through separately tested interfaces.
 
+## 2026-11-21
+
+### Added
+
+- Implemented three daily demand forecast baselines with a validated forecast interface, seeded demand scenarios, chronological evaluation, regression tests, and reproducible JSON and CSV results. [Stage A report](reports/forecasting-stage-a/README.md)
+
 ## 2026-11-18
 
 ### Added

@@ -1,6 +1,6 @@
 # Evaluation Protocol
 
-Status: general evaluation protocol with implemented proportional and LP benchmark runners. The [9 November 2026 experiment contract](milestone-2026-11-09.md) and [results](../../reports/milestone-2026-11-09/README.md) document completed synthetic comparisons and their limits.
+Status: general evaluation protocol with implemented allocation benchmark runners and a [daily forecast evaluation](../../reports/forecasting-stage-a/README.md). The [9 November 2026 experiment contract](milestone-2026-11-09.md) and [results](../../reports/milestone-2026-11-09/README.md) document completed synthetic comparisons and their limits.
 
 ## Available Scenario Runner
 

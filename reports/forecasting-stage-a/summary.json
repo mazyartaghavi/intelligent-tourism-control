@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "intervals_produced": false,
+  "selected_by_validation_mae": "seasonal_mean",
+  "configuration": {
+    "schema_version": 1,
+    "start": "2026-01-05",
+    "locations": [
+      "site-a",
+      "site-b",
+      "site-c"
+    ],
+    "training_days": 70,
+    "validation_days": 28,
+    "test_days": 42,
+    "horizon_days": 7,
+    "seeds": [
+      4270,
+      4271,
+      4272,
+      4273,
+      4274,
+      4275,
+      4276,
+      4277,
+      4278,
+      4279,
+      4280,
+      4281
+    ]
+  },
+  "windows_per_scenario": {
+    "validation": 4,
+    "test": 6
+  },
+  "overall_metrics": [
+    {
+      "split": "validation",
+      "method": "persistence",
+      "stratum": "all",
+      "n": 1008,
+      "mae": 14.896825396825397,
+      "rmse": 17.998897673477604
+    },
+    {
+      "split": "validation",
+      "method": "seasonal_naive",
+      "stratum": "all",
+      "n": 1008,
+      "mae": 8.45734126984127,
+      "rmse": 10.732821268471417
+    },
+    {
+      "split": "validation",
+      "method": "seasonal_mean",
+      "stratum": "all",
+      "n": 1008,
+      "mae": 6.924603174603175,
+      "rmse": 8.762129411083729
+    },
+    {
+      "split": "test",
+      "method": "persistence",
+      "stratum": "all",
+      "n": 1512,
+      "mae": 14.548280423280424,
+      "rmse": 17.795966637736445
+    },
+    {
+      "split": "test",
+      "method": "seasonal_naive",
+      "stratum": "all",
+      "n": 1512,
+      "mae": 8.777777777777779,
+      "rmse": 11.157423324320686
+    },
+    {
+      "split": "test",
+      "method": "seasonal_mean",
+      "stratum": "all",
+      "n": 1512,
+      "mae": 7.349426807760142,
+      "rmse": 9.389245007491262
+    }
+  ],
+  "unit": "service_requests_per_utc_day"
+}

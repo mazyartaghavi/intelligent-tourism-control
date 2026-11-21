@@ -31,6 +31,10 @@ python scripts/evaluation/verify_milestone.py
 
 The verifier runs the tests and reproduces the stored scientific results. To generate separate outputs, run `python scripts/evaluation/run_milestone.py --output reports/local-reproduction`.
 
+## Stage A — Demand Forecasting — 21 November 2026
+
+Three reproducible daily demand baselines are now available for seeded synthetic trajectories. The seasonal mean selected on validation achieved a held-out MAE of **7.35 requests per site-day**, compared with **8.78** for seasonal naive and **14.55** for persistence. [Methods, results, and reproduction commands](reports/forecasting-stage-a/README.md)
+
 ## Try the Capacity Allocation Baseline
 
 A first executable heuristic distributes a shared budget in proportion to demand capped by local capacity. Run this synthetic example from the repository root with Python 3.10 or later; no additional packages are required:
@@ -73,7 +77,7 @@ The scientific documentation defines the equations, assumptions, and evaluation 
 - [Optimization milestone](docs/research/optimization-milestone.md#deterministic-allocation-formulation): an explicit linear allocation model and its relationship to the implemented proportional heuristic.
 - [Evaluation protocol](docs/experiments/evaluation-protocol.md): reference methods, metric definitions, temporal validation, ablations, and reproducibility requirements.
 
-The proportional heuristic and constrained linear allocator are implemented and evaluated on synthetic scenarios. Forecasting, pricing, recommendation, and language interfaces remain specifications.
+The proportional heuristic and constrained linear allocator are implemented and evaluated on synthetic scenarios. Three point forecast baselines are implemented and evaluated separately. Forecast-to-allocation integration, pricing, recommendation, and language interfaces remain research specifications.
 
 ## Related Work and Literature Review
 
@@ -478,6 +482,7 @@ The project has completed **Milestone 01: validated allocation implementation an
 | Research architecture | Established | Maintaining clear interfaces between sensing, forecasting, optimization, recommendation, and language components |
 | LLM and RAG | Design | Defining grounded interaction, retrieval, and evaluation interfaces |
 | Mathematical optimization | Implemented and tested | Proportional comparator, multi-period LP, numerical checks, and synthetic comparisons |
+| Demand forecasting | Implemented and tested on synthetic demand | Daily point forecasts, chronological evaluation, and horizon-specific errors |
 | Reinforcement learning | Planned | Comparing learned policies with optimization and heuristic baselines |
 | Integrated evaluation | Allocation benchmark complete | Paired forecast-error stress tests, sensitivity analysis, and archived outputs; broader system evaluation planned |
 
@@ -494,6 +499,7 @@ Status labels describe repository maturity rather than validated scientific perf
 - [x] Implement a deterministic optimization baseline for comparison.
 - [x] Add synthetic scenario generation, configuration files, and unit tests.
 - [x] Report feasibility, objective value, runtime, and sensitivity results.
+- [x] Implement and evaluate point forecast baselines on chronological synthetic demand data.
 - [ ] Connect forecasting outputs to optimization inputs through a documented interface.
 - [ ] Evaluate adaptive policies against fixed and optimization-based baselines.
 

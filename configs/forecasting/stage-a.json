@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "start": "2026-01-05",
+  "locations": [
+    "site-a",
+    "site-b",
+    "site-c"
+  ],
+  "training_days": 70,
+  "validation_days": 28,
+  "test_days": 42,
+  "horizon_days": 7,
+  "seeds": [
+    4270,
+    4271,
+    4272,
+    4273,
+    4274,
+    4275,
+    4276,
+    4277,
+    4278,
+    4279,
+    4280,
+    4281
+  ]
+}

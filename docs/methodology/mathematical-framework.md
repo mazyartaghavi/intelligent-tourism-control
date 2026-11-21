@@ -1,6 +1,6 @@
 # Mathematical Framework
 
-Status: implemented allocation model with broader research specifications. The [proportional heuristic](../../src/tourism_control/optimization/proportional.py) and [linear allocator](../../src/tourism_control/optimization/linear.py) have a [dated synthetic evaluation](../../reports/milestone-2026-11-09/README.md). Forecasting, pricing, recommendation, and language interfaces remain planned; no field-performance or deployment results are asserted.
+Status: implemented allocation model with broader research specifications. The [proportional heuristic](../../src/tourism_control/optimization/proportional.py) and [linear allocator](../../src/tourism_control/optimization/linear.py) have a [dated synthetic evaluation](../../reports/milestone-2026-11-09/README.md). The [forecast baselines](../../reports/forecasting-stage-a/README.md) have a separate synthetic evaluation. Pricing, recommendation, language interfaces, and forecast-to-allocation integration remain planned.
 
 ## 1. Notation and Decision Timing
 
@@ -146,7 +146,8 @@ The proposed interface explains feasible decisions and cites supporting evidence
 |---|---|---|
 | Proportional allocation | Executable heuristic, unit tests, fixed cases, and LP comparisons | Evaluation on empirically justified scenarios |
 | Constrained allocation | Multi-period LP, explicit constraints, numerical checks, and synthetic benchmark | Robust/stochastic extensions and empirical validation |
-| Forecasting and pricing | Equations and assumptions | Data interfaces, models, simulator, policy evaluation |
+| Demand forecasting | Daily point forecast interface, three baselines, and chronological synthetic evaluation | Empirical validation, interval calibration, and allocation integration |
+| Pricing | Equations and assumptions | Data interfaces, simulator, and policy evaluation |
 | Recommendation and language interface | Utility and information-flow specification | Ranking, retrieval, generation, and evaluation implementations |
 
 Use the [evaluation protocol](../experiments/evaluation-protocol.md) to design comparisons. Demonstrating that an equation is well defined or a unit test passes is separate from demonstrating useful performance on a research task.
