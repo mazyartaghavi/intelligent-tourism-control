@@ -35,6 +35,10 @@ The verifier runs the tests and reproduces the stored scientific results. To gen
 
 Three reproducible daily demand baselines are now available for seeded synthetic trajectories. The seasonal mean selected on validation achieved a held-out MAE of **7.35 requests per site-day**, compared with **8.78** for seasonal naive and **14.55** for persistence. [Methods, results, and reproduction commands](reports/forecasting-stage-a/README.md)
 
+## Stage B — Forecast-to-allocation integration
+
+The allocator now plans from dated forecasts. In the synthetic study, it reduced the weighted cost by **15.6%** versus proportional allocation using the same seasonal-mean forecasts. Persistence produced less accurate forecasts but a lower optimization objective under these weights. [Integration study](reports/forecast-allocation-stage-b/README.md)
+
 ## Try the Capacity Allocation Baseline
 
 A first executable heuristic distributes a shared budget in proportion to demand capped by local capacity. Run this synthetic example from the repository root with Python 3.10 or later; no additional packages are required:
@@ -77,7 +81,7 @@ The scientific documentation defines the equations, assumptions, and evaluation 
 - [Optimization milestone](docs/research/optimization-milestone.md#deterministic-allocation-formulation): an explicit linear allocation model and its relationship to the implemented proportional heuristic.
 - [Evaluation protocol](docs/experiments/evaluation-protocol.md): reference methods, metric definitions, temporal validation, ablations, and reproducibility requirements.
 
-The proportional heuristic and constrained linear allocator are implemented and evaluated on synthetic scenarios. Three point forecast baselines are implemented and evaluated separately. Forecast-to-allocation integration, pricing, recommendation, and language interfaces remain research specifications.
+The proportional heuristic and constrained linear allocator are implemented and evaluated on synthetic scenarios. Three point forecast baselines are implemented and evaluated separately. The forecast-to-allocation integration has been tested separately on synthetic demand. Pricing, recommendation, and language interfaces remain research specifications.
 
 ## Related Work and Literature Review
 
@@ -500,7 +504,7 @@ Status labels describe repository maturity rather than validated scientific perf
 - [x] Add synthetic scenario generation, configuration files, and unit tests.
 - [x] Report feasibility, objective value, runtime, and sensitivity results.
 - [x] Implement and evaluate point forecast baselines on chronological synthetic demand data.
-- [ ] Connect forecasting outputs to optimization inputs through a documented interface.
+- [x] Connect forecasting outputs to optimization inputs and evaluate realized outcomes.
 - [ ] Evaluate adaptive policies against fixed and optimization-based baselines.
 
 Roadmap items may be refined as assumptions, data availability, and experimental evidence evolve.

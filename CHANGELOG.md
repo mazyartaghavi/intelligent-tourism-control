@@ -14,6 +14,7 @@ Notable repository-level changes are documented in this file. The project follow
 
 ### Added
 
+- Connected dated forecast batches to the allocator and compared realized outcomes with proportional allocation and a perfect-information reference. [Stage B report](reports/forecast-allocation-stage-b/README.md)
 - Implemented three daily demand forecast baselines with a validated forecast interface, seeded demand scenarios, chronological evaluation, regression tests, and reproducible JSON and CSV results. [Stage A report](reports/forecasting-stage-a/README.md)
 
 ## 2026-11-18
