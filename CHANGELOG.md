@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Extend the baseline with empirical service requirements and robust or stochastic decisions.
 - Integrate forecasting, sensing, pricing, recommendation, and grounded explanations through separately tested interfaces.
 
+## 2026-11-22
+
+### Added
+
+- Evaluated how priorities, adjustment charges, and shared capacity affect the ranking and service trade-offs of three daily allocation policies. [Sensitivity study](reports/policy-sensitivity-2026-11-22/README.md)
+
 ## 2026-11-21
 
 ### Added

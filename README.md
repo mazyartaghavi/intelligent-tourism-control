@@ -8,6 +8,8 @@ Daily forecasts now feed the capacity allocator, and a separate benchmark compar
 
 **[Read the milestone report](reports/sequential-control-stage-e/README.md)** · [Daily control model](docs/methodology/daily-capacity-control.md) · [Raw comparison results](reports/sequential-control-stage-e/results.json)
 
+The [22 November sensitivity study](reports/policy-sensitivity-2026-11-22/README.md) shows when optimization improves weighted cost over the fixed priority rule and how the difference affects total service.
+
 ## Milestone 01 — 9 November 2026
 
 **A working constrained allocator and a reproducible decision-evaluation package are now available.**
