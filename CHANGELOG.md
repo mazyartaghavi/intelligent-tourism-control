@@ -14,6 +14,7 @@ Notable repository-level changes are documented in this file. The project follow
 
 ### Added
 
+- Benchmarked monthly park visitation forecasts and simulated capacity decisions using an attributed, reproducible CC0 dataset subset. [Observed visitation benchmark](reports/observed-visitation-2026-11-22/README.md)
 - Evaluated how priorities, adjustment charges, and shared capacity affect the ranking and service trade-offs of three daily allocation policies. [Sensitivity study](reports/policy-sensitivity-2026-11-22/README.md)
 
 ## 2026-11-21

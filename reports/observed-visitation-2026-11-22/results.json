@@ -1,0 +1,363 @@
+{
+  "source_doi": "10.57830/2317666",
+  "source_sha256": "284ab33b15e9a817948cba4663ed33748ba24dbbc36b750be2b2cfbb662fe912",
+  "panel_sha256": "ebed1bb2aafb1d840247af30399b9a9ced9b3a235cdebfd54f5b77dd9c2ffd7e",
+  "selected_by_validation_mae": "seasonal_mean",
+  "allocation_settings": {
+    "schema_version": 1,
+    "budget_fraction": 0.65,
+    "unmet_penalty": [
+      5,
+      3,
+      1.5
+    ],
+    "operating_cost": [
+      0.8,
+      0.85,
+      0.9
+    ],
+    "adjustment_cost": [
+      0.35,
+      0.35,
+      0.35
+    ]
+  },
+  "annual_allocation": [
+    {
+      "policy": "proportional_selected",
+      "year": 2022,
+      "objective": 30510065.587493084,
+      "weighted_unmet": 20423616.618196722,
+      "served": 10185603.285,
+      "unmet": 8171589.714999999,
+      "unused_service": 0.0,
+      "operating_cost": 8934855.957345132,
+      "adjustment_cost": 1151593.0119512286,
+      "total_change": 3290265.748432081,
+      "max_constraint_violation": 1.1641532182693481e-10,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 1.1641532182693481e-10,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    },
+    {
+      "policy": "proportional_selected",
+      "year": 2023,
+      "objective": 30947487.95995535,
+      "weighted_unmet": 20893050.922161832,
+      "served": 10185603.285,
+      "unmet": 8567941.715,
+      "unused_service": 0.0,
+      "operating_cost": 8934931.102137681,
+      "adjustment_cost": 1119505.9356558379,
+      "total_change": 3198588.3875881084,
+      "max_constraint_violation": 1.1641532182693481e-10,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 1.1641532182693481e-10,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    },
+    {
+      "policy": "proportional_selected",
+      "year": 2024,
+      "objective": 30129688.47978954,
+      "weighted_unmet": 20072447.414477184,
+      "served": 10185603.285,
+      "unmet": 7688102.715,
+      "unused_service": 0.0,
+      "operating_cost": 8934733.719192447,
+      "adjustment_cost": 1122507.3461199086,
+      "total_change": 3207163.8460568814,
+      "max_constraint_violation": 1.1641532182693481e-10,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 1.1641532182693481e-10,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    },
+    {
+      "policy": "proportional_selected",
+      "year": 2025,
+      "objective": 29504998.590109453,
+      "weighted_unmet": 19450497.83426338,
+      "served": 10185603.285,
+      "unmet": 7103805.715,
+      "unused_service": 0.0,
+      "operating_cost": 8931836.585914718,
+      "adjustment_cost": 1122664.1699313554,
+      "total_change": 3207611.9140895866,
+      "max_constraint_violation": 2.3283064365386963e-10,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 2.3283064365386963e-10,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    },
+    {
+      "policy": "lp_persistence",
+      "year": 2022,
+      "objective": 32556586.856999997,
+      "weighted_unmet": 23826041.094999995,
+      "served": 8889348.07,
+      "unmet": 9467844.93,
+      "unused_service": 10103.700000000008,
+      "operating_cost": 7818486.523000001,
+      "adjustment_cost": 912059.2390000001,
+      "total_change": 2605883.54,
+      "max_constraint_violation": 0.0,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 0.0,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    },
+    {
+      "policy": "lp_persistence",
+      "year": 2023,
+      "objective": 32698956.5085,
+      "weighted_unmet": 24125121.494999997,
+      "served": 8792737.370000001,
+      "unmet": 9960807.629999997,
+      "unused_service": 7922.700000000012,
+      "operating_cost": 7720212.058000001,
+      "adjustment_cost": 853622.9554999999,
+      "total_change": 2438922.73,
+      "max_constraint_violation": 0.0,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 0.0,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    },
+    {
+      "policy": "lp_persistence",
+      "year": 2024,
+      "objective": 32122242.5585,
+      "weighted_unmet": 23571818.894999996,
+      "served": 8738263.070000002,
+      "unmet": 9135442.93,
+      "unused_service": 0.0,
+      "operating_cost": 7669488.108000002,
+      "adjustment_cost": 880935.5555,
+      "total_change": 2516958.73,
+      "max_constraint_violation": 0.0,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 0.0,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    },
+    {
+      "policy": "lp_persistence",
+      "year": 2025,
+      "objective": 31890107.7585,
+      "weighted_unmet": 23524739.494999997,
+      "served": 8475870.270000001,
+      "unmet": 8813538.729999999,
+      "unused_service": 11270.800000000016,
+      "operating_cost": 7445259.308000001,
+      "adjustment_cost": 920108.9555,
+      "total_change": 2628882.7300000004,
+      "max_constraint_violation": 0.0,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 0.0,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    },
+    {
+      "policy": "lp_seasonal_naive",
+      "year": 2022,
+      "objective": 26347940.792999998,
+      "weighted_unmet": 16568485.762499996,
+      "served": 9993102.425,
+      "unmet": 8364090.574999998,
+      "unused_service": 42097.20000000004,
+      "operating_cost": 8675608.307500001,
+      "adjustment_cost": 1103846.7230000002,
+      "total_change": 3153847.7800000003,
+      "max_constraint_violation": 0.0,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 0.0,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    },
+    {
+      "policy": "lp_seasonal_naive",
+      "year": 2023,
+      "objective": 26705221.125499997,
+      "weighted_unmet": 16958521.164999995,
+      "served": 10037717.090000002,
+      "unmet": 8715827.909999998,
+      "unused_service": 0.0,
+      "operating_cost": 8679781.181000002,
+      "adjustment_cost": 1066918.7795000002,
+      "total_change": 3048339.3700000006,
+      "max_constraint_violation": 0.0,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 0.0,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    },
+    {
+      "policy": "lp_seasonal_naive",
+      "year": 2024,
+      "objective": 25895053.314499997,
+      "weighted_unmet": 16140543.762499996,
+      "served": 10020025.725,
+      "unmet": 7853680.2749999985,
+      "unused_service": 22659.600000000006,
+      "operating_cost": 8682271.0525,
+      "adjustment_cost": 1072238.4995000002,
+      "total_change": 3063538.5700000003,
+      "max_constraint_violation": 0.0,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 0.0,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    },
+    {
+      "policy": "lp_seasonal_naive",
+      "year": 2025,
+      "objective": 25347191.410499997,
+      "weighted_unmet": 15627830.814999996,
+      "served": 10003900.59,
+      "unmet": 7285508.409999999,
+      "unused_service": 11270.800000000016,
+      "operating_cost": 8657282.806000002,
+      "adjustment_cost": 1062077.7895,
+      "total_change": 3034507.97,
+      "max_constraint_violation": 0.0,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 0.0,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    },
+    {
+      "policy": "lp_seasonal_mean",
+      "year": 2022,
+      "objective": 26425983.994666666,
+      "weighted_unmet": 16644985.562499996,
+      "served": 9978965.825000001,
+      "unmet": 8378227.174999999,
+      "unused_service": 56233.800000000054,
+      "operating_cost": 8676759.359166669,
+      "adjustment_cost": 1104239.0730000003,
+      "total_change": 3154968.7800000007,
+      "max_constraint_violation": 1.1641532182693481e-10,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 1.1641532182693481e-10,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    },
+    {
+      "policy": "lp_seasonal_mean",
+      "year": 2023,
+      "objective": 26770612.036166664,
+      "weighted_unmet": 17026403.362499997,
+      "served": 10010177.258333335,
+      "unmet": 8743367.741666663,
+      "unused_service": 25022.36666666667,
+      "operating_cost": 8677210.164166667,
+      "adjustment_cost": 1066998.5095000002,
+      "total_change": 3048567.1700000004,
+      "max_constraint_violation": 0.0,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 0.0,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    },
+    {
+      "policy": "lp_seasonal_mean",
+      "year": 2024,
+      "objective": 25887090.30783333,
+      "weighted_unmet": 16140506.362499997,
+      "served": 10016852.991666669,
+      "unmet": 7856853.008333333,
+      "unused_service": 21464.333333333343,
+      "operating_cost": 8678239.7325,
+      "adjustment_cost": 1068344.2128333335,
+      "total_change": 3052412.036666667,
+      "max_constraint_violation": 0.0,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 0.0,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    },
+    {
+      "policy": "lp_seasonal_mean",
+      "year": 2025,
+      "objective": 25345457.932166666,
+      "weighted_unmet": 15609311.714999996,
+      "served": 10021844.990000002,
+      "unmet": 7267564.01,
+      "unused_service": 10455.100000000004,
+      "operating_cost": 8673019.337666668,
+      "adjustment_cost": 1063126.8795,
+      "total_change": 3037505.3700000006,
+      "max_constraint_violation": 0.0,
+      "constraint_violations": {
+        "nonnegative": 0.0,
+        "local_capacity": 0.0,
+        "planning_demand": 0.0,
+        "shared_budget": 0.0,
+        "change_limit": 0.0
+      },
+      "feasible": true
+    }
+  ]
+}
