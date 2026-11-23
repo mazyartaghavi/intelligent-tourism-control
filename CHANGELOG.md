@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Extend the baseline with empirical service requirements and robust or stochastic decisions.
 - Integrate forecasting, sensing, pricing, recommendation, and grounded explanations through separately tested interfaces.
 
+## 2026-11-23
+
+### Added
+
+- Reviewed monthly visitation estimation from mobility proxies and proposed separate tests for missing observations and future forecasts. [Paper note](docs/related-work/papers/2025-merrill-public-land-visitation.md)
+
 ## 2026-11-22
 
 ### Added
