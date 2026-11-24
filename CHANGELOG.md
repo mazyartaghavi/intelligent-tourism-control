@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Extend the baseline with empirical service requirements and robust or stochastic decisions.
 - Integrate forecasting, sensing, pricing, recommendation, and grounded explanations through separately tested interfaces.
 
+## 2026-11-24
+
+### Added
+
+- Reviewed listing-night price recommendations and proposed comparing bounded adjustments with revenue maximization under uncertain booking response and partial adoption. [Paper note](docs/related-work/papers/2018-ye-listing-night-pricing.md)
+
 ## 2026-11-23
 
 ### Added

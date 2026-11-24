@@ -36,6 +36,7 @@ The [dated literature-to-implementation synthesis](synthesis.md) connects this c
 | [Xu and Xie: Ensemble prediction intervals](papers/2021-xu-ensemble-prediction-intervals.md) | 2021 | Forecast uncertainty; sequential calibration; subgroup evaluation | Published full-text algorithm, assumptions, and energy experiments | 2026-11-18 |
 | [Bertsimas and Sim: The price of robustness](papers/2004-bertsimas-price-of-robustness.md) | 2004 | Robust optimization; uncertain staffing coefficients | Published full-text formulation, assumptions, and knapsack example | 2026-11-22 |
 | [Merrill et al.: Estimating public land visitation](papers/2025-merrill-public-land-visitation.md) | 2025 | Visitor monitoring and transfer across sites | Published full-text methods, held-out tests, and limitations | 2026-11-23 |
+| [Ye et al.: Listing-night price recommendations](papers/2018-ye-listing-night-pricing.md) | 2018 | Accommodation pricing and partial adoption | Published full-text model, offline comparison, and online results description | 2026-11-24 |
 
 ## Emerging Connections
 
