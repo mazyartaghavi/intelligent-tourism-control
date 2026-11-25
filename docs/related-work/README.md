@@ -37,6 +37,7 @@ The [dated literature-to-implementation synthesis](synthesis.md) connects this c
 | [Bertsimas and Sim: The price of robustness](papers/2004-bertsimas-price-of-robustness.md) | 2004 | Robust optimization; uncertain staffing coefficients | Published full-text formulation, assumptions, and knapsack example | 2026-11-22 |
 | [Merrill et al.: Estimating public land visitation](papers/2025-merrill-public-land-visitation.md) | 2025 | Visitor monitoring and transfer across sites | Published full-text methods, held-out tests, and limitations | 2026-11-23 |
 | [Ye et al.: Listing-night price recommendations](papers/2018-ye-listing-night-pricing.md) | 2018 | Accommodation pricing and partial adoption | Published full-text model, offline comparison, and online results description | 2026-11-24 |
+| [Wang et al.: NWPU-Crowd benchmark](papers/2021-wang-nwpu-crowd.md) | 2021 | Crowd sensing, empty scenes, and lighting | Full-text benchmark design, leaderboard, and training comparisons | 2026-11-25 |
 
 ## Emerging Connections
 
