@@ -38,6 +38,7 @@ The [dated literature-to-implementation synthesis](synthesis.md) connects this c
 | [Merrill et al.: Estimating public land visitation](papers/2025-merrill-public-land-visitation.md) | 2025 | Visitor monitoring and transfer across sites | Published full-text methods, held-out tests, and limitations | 2026-11-23 |
 | [Ye et al.: Listing-night price recommendations](papers/2018-ye-listing-night-pricing.md) | 2018 | Accommodation pricing and partial adoption | Published full-text model, offline comparison, and online results description | 2026-11-24 |
 | [Wang et al.: NWPU-Crowd benchmark](papers/2021-wang-nwpu-crowd.md) | 2021 | Crowd sensing, empty scenes, and lighting | Full-text benchmark design, leaderboard, and training comparisons | 2026-11-25 |
+| [Cohen et al.: Fairness constraints in pricing](papers/2022-cohen-pricing-fairness.md) | 2022 | Pricing; welfare and access trade-offs | Published full-text theoretical results and nonlinear model discussion | 2026-11-26 |
 
 ## Emerging Connections
 

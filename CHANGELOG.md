@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Extend the baseline with empirical service requirements and robust or stochastic decisions.
 - Integrate forecasting, sensing, pricing, recommendation, and grounded explanations through separately tested interfaces.
 
+## 2026-11-26
+
+### Added
+
+- Reviewed pricing fairness criteria and proposed separate affordability, access, and revenue measures for capacity-limited public prices. [Paper note](docs/related-work/papers/2022-cohen-pricing-fairness.md)
+
 ## 2026-11-25
 
 ### Added
