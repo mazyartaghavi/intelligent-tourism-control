@@ -39,6 +39,7 @@ The [dated literature-to-implementation synthesis](synthesis.md) connects this c
 | [Ye et al.: Listing-night price recommendations](papers/2018-ye-listing-night-pricing.md) | 2018 | Accommodation pricing and partial adoption | Published full-text model, offline comparison, and online results description | 2026-11-24 |
 | [Wang et al.: NWPU-Crowd benchmark](papers/2021-wang-nwpu-crowd.md) | 2021 | Crowd sensing, empty scenes, and lighting | Full-text benchmark design, leaderboard, and training comparisons | 2026-11-25 |
 | [Cohen et al.: Fairness constraints in pricing](papers/2022-cohen-pricing-fairness.md) | 2022 | Pricing; welfare and access trade-offs | Published full-text theoretical results and nonlinear model discussion | 2026-11-26 |
+| [Chen et al.: Seasonal recreation forecasting](papers/2003-chen-recreation-forecasting.md) | 2003 | Recreation demand; horizon-dependent forecasting evaluation | Published full-text case study, results, and error definitions | 2026-11-27 |
 
 ## Emerging Connections
 

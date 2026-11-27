@@ -10,6 +10,12 @@ Notable repository-level changes are documented in this file. The project follow
 - Extend the baseline with empirical service requirements and robust or stochastic decisions.
 - Integrate forecasting, sensing, pricing, recommendation, and grounded explanations through separately tested interfaces.
 
+## 2026-11-27
+
+### Added
+
+- Reviewed seasonal recreation forecasting and proposed matched-horizon, held-out comparisons of simple and decomposition-based methods. [Paper note](docs/related-work/papers/2003-chen-recreation-forecasting.md)
+
 ## 2026-11-26
 
 ### Added
